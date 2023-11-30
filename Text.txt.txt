@@ -1,0 +1,10 @@
+My first text
+<<<<<<< HEAD
+Second Text
+=======
+Before submission
+30 minutes before submission
+>>>>>>> 8ab44a9c7bb8cdbc61971c3fa6ef7584546bbe2d
+First day training
+no one
+go

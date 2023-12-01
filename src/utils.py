@@ -180,3 +180,25 @@ def convert_2_timestamp(column, data):
                 timestamp_.append(a.strftime('%Y-%m-%d %H:%M:%S'))
         return timestamp_
     else: print(f"{column} not in data")
+def get_messages_on_channel(channel_path):
+
+    json_files = [
+        f"{channel_path}/{pos_json}" 
+        for pos_json in os.listdir(channel_path) 
+        if pos_json.endswith('.json')
+    ]
+    combined = []
+
+    for json_file in json_files:
+        with open(json_file, 'r', encoding="utf8") as slack_data:
+            json_content = json.load(slack_data)
+            combined.extend(json_content)
+    
+    messages = []
+
+    for msg in combined:
+        msg_list, _ = process_message(msg)
+        messages.append(msg_list)
+
+     
+    return messages

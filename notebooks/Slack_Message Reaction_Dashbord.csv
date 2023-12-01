@@ -1,0 +1,1198 @@
+,reaction_name,reaction_count,reaction_users_count,message,user_id,channel
+0,1,1,U03UFV7HFNF,<!channel> please note that our core hours range from 8:00 AM - 2:00 PM UTC. This is a period where you can ask any questions and expect a quick response from the team or colleagues. I would like to encourage everyone to be more active and contributing on slack during these core hours. Thanks and keep enjoying the challenge!!!,U03T89ACUUW,Allchannells
+1,white_check_mark,1,U03TEPYRM2P,in other words - don't struggle alone for a long time (You have people)!,U03T89ACUUW,Allchannells
+2,raised_hands,1,U03UD68RQH3,"Try it in incognito window, works fine for me in incognito.",U03UUR571A5,Allchannells
+3,1,4,"U03UJN29Y4C,U03V785NLSU,U03UG1RTXAP,U03UKGSDGSG",The project structure that is suggested: <https://github.com/10xac/PythonPackageStructure>,U03U1HAG9TR,Allchannells
+4,1,3,"U03V8LHPDME,U03UP7V9Q57,U03UYNR4TS4",I had the same issue until I cleared the cache on my browser.,U03V785NLSU,Allchannells
+5,white_check_mark,1,U03UJGP0C68,You can try by clearing cache,U03UDBUL7CL,Allchannells
+6,white_check_mark,1,U03UVHCV6KB,"You can follow this to solve the problem
+<https://10academy.notion.site/Guide-for-removing-cache-and-cookies-04ed51fc65084ca7b0a2a0a7eaf055dd>",U03UYNR4TS4,Allchannells
+7,1,1,U03UUMM7Y8H,"for the four bullets, I think we can use
+• number of xDR sessions = 'Bearer Id'
+• Session duration = 'Dur. (ms)' or 'Dur. (s)'
+• the total download (DL) and upload (UL) data = 'Total DL (Bytes)' and 'Total UL (Bytes)'
+• the total data volume (in Bytes) during this session for each application = aggregate for all the applications provided 
+",U03UVHCV6KB,Allchannells
+8,1,2,"U03UFV7TUTV,U03UVHCV6KB",<https://pandas.pydata.org/docs/reference/api/pandas.core.groupby.DataFrameGroupBy.aggregate.html>,U03UKL27B0R,Allchannells
+9,1,1,U03UVHCV6KB,"Check this site. It mighy help
+<https://www.tutorialspoint.com/python_data_science/python_data_aggregation.htm|https://www.tutorialspoint.com/python_data_science/python_data_aggregation.htm>",U03UKGSDGSG,Allchannells
+10,100,3,"U03UFV7TUTV,U03UG32J3PC,U03UFV7HFNF",Important site for working with missing data in pandas. <https://www.geeksforgeeks.org/working-with-missing-data-in-pandas/|https://www.geeksforgeeks.org/working-with-missing-data-in-pandas/>,U03UKGSDGSG,Allchannells
+11,1,1,U03UVHCV6KB,Important site for working with missing data in pandas. <https://www.geeksforgeeks.org/working-with-missing-data-in-pandas/|https://www.geeksforgeeks.org/working-with-missing-data-in-pandas/>,U03UKGSDGSG,Allchannells
+12,raised_hands,1,U03UVHCV6KB,"For the total data in bytes for each application, do you think that it's good to some the DL and Ul for each application?",U03UH397319,Allchannells
+13,1,1,U03V8LHPDME,just to be sure,U03UVHCV6KB,Allchannells
+14,raised_hands,1,U03UVHCV6KB,"why replace when u can either normalize it or scale it?
+
+like simple min max scaler or log transformation will do",U03U1GHT39V,Allchannells
+15,white_check_mark,1,U03UJGRN5E0,I think scaling and normalization are only applicable to numeric data,U03UH397319,Allchannells
+16,1,2,"U03UUMM7Y8H,U03UKL27B0R","In my case, there is a missing value in the &lt;MSISDN&gt; but not in the Bearer ID. I chose not to drop it because I used the MSISDN as a customer_id",U03UJGRN5E0,Allchannells
+17,raised_hands,1,U03UG4Q7V42,"`import sys, os`
+`sys.path.append(os.path.abspath(os.path.join('../scripts/')))`",U03UUR571A5,Allchannells
+18,white_check_mark,1,U03UG4Q7V42,That was only required on older python version before 3.4 or 3.3. If you have newer version that won't be required.,U03UKL27B0R,Allchannells
+19,handshake,2,"U03UG4Q7V42,U03UFV7HFNF","It is not necessary if you use `sys.path.append(os.path.abspath(os.path.join('../scripts/')))`.
+But if you do have `__init__.py` github actions will complain and throw an error while the tests are running for your scripts especially if you don't use the correct statements
+for example the statement `import utils` will be an error in github actions even though it works fine locally,
+so you have to use `from . import utils`",U03UUR571A5,Allchannells
+20,1,1,U03UG4Q7V42,"Hello guys, I think this link can help us: <https://www.canva.com/>",U03UGB3T3MY,Allchannells
+21,1,2,"U03UG4Q7V42,U03UKGSDGSG",<https://machinelearningmastery.com/understand-machine-learning-data-descriptive-statistics-python/>,U03UG32J3PC,Allchannells
+22,1,1,U03UJKJGRAQ,You can drop the rows with no bearer ids,U03U1FQKEMV,Allchannells
+23,heavy_check_mark,3,"U03V1AM5TFA,U03UUMM7Y8H,U03UG5VFN03","You can also refer on the week 1 schedule to have a clear sense of the submissions deadlines for both technical or non-technical. For technical, we have two submissions (interim submission and Final submission - kindly check the schedule and challenge doc)",U03T89ACUUW,Allchannells
+24,1,1,U03UG4Q7V42,you may change the axis to 0 or 'index',U03UUMM7Y8H,Allchannells
+25,1,2,"U03UG4Q7V42,U03U1FNPEUX","I have rerun every cell, so it's working again now",U03UJN29Y4C,Allchannells
+26,1,1,U03UG1Z21JP,"Thank you so much guys, I'll do the manual installation later. for now I've switched to google colab just to finish up my work",U03UJN29Y4C,Allchannells
+27,1,2,"U03U1HAG9TR,U03UVHCV6KB",I use vscode extension for notebook and it works great. Maybe you should try that?,U03UG4Q7V42,Allchannells
+28,white_check_mark,1,U03UG32J3PC,you have to fetch and merge first (if you are sure you won't find merge conflict you can use `git pull` command) but if you are unsure please use `git fetch` then `git merge`,U03UJGP0C68,Allchannells
+29,1,1,U03UJGP0C68,tnx i fixed it,U03UHB8CXDY,Allchannells
+30,white_check_mark,1,U03UVHCV6KB,"we are asked to calculate correlation  for the social media, google, email, youtube, netflix, gaming, and other.
+you can calculate corr..
+corr = df[&lt;selected column&gt;].corr()",U03UJGRN5E0,Allchannells
+31,raised_hands,1,U03UVHCV6KB,"we are asked to calculate correlation  for the social media, google, email, youtube, netflix, gaming, and other.
+you can calculate corr..
+corr = df[&lt;selected column&gt;].corr()",U03UJGRN5E0,Allchannells
+32,1,1,U03UG569P7U,"we are asked to calculate correlation  for the social media, google, email, youtube, netflix, gaming, and other.
+you can calculate corr..
+corr = df[&lt;selected column&gt;].corr()",U03UJGRN5E0,Allchannells
+33,white_check_mark,1,U03UVHCV6KB,"sns.heatmap(corr,
+cmap= ‘Blues’,         xticklabels=corr.columns,          yticklabels=corr.columns)",U03UJGRN5E0,Allchannells
+34,raised_hands,1,U03UVHCV6KB,"sns.heatmap(corr,
+cmap= ‘Blues’,         xticklabels=corr.columns,          yticklabels=corr.columns)",U03UJGRN5E0,Allchannells
+35,1,3,"U03UFV7HFNF,U03UVHCV6KB,U03UD5B7C3X","PCA works only for numerical values. So, make sure to select the numeric columns before calculating the PCA
+numeric_df = df.select_dtypes(include=‘float64’)",U03UJGRN5E0,Allchannells
+36,1,1,U03UFV7TUTV,"<https://machinelearningmastery.com/principal-components-analysis-for-dimensionality-reduction-in-python/#:~:text=for%20Dimensionality%20Reduction-,Dimensionality%20Reduction%20and%20PCA,to%20predict%20the%20target%20variable>.",U03UUR571A5,Allchannells
+37,raised_hands,1,U03UUR571A5,<https://dev.to/mage_ai/10-steps-to-build-and-optimize-a-ml-model-4a3h|https://dev.to/mage_ai/10-steps-to-build-and-optimize-a-ml-model-4a3h>,U03UFV7TUTV,Allchannells
+38,wave,1,U03UJGRN5E0,Anyone who can help me on dimensionality reduction?,U03UUMM7Y8H,Allchannells
+39,1,1,U03UG4Q7V42,<https://towardsdatascience.com/principal-component-analysis-for-dimensionality-reduction-115a3d157bad>,U03UUR571A5,Allchannells
+40,1,2,"U03UUR571A5,U03U1HAG9TR",I think it is impossible to have a boxplot for categorical data,U03UJGRN5E0,Allchannells
+41,smiling_face_with_tear,1,U03V6HMRPGQ,do I need to normalize and standardize all the columns ??,U03V6HMRPGQ,Allchannells
+42,1,1,U03U9DB7REG,Okay thank you <@U03U9DB7REG>,U03U9EJR362,Allchannells
+43,raised_hands,1,U03U9EJR362,or you can use the --patch command,U03U9DB7REG,Allchannells
+44,1,1,U03UJGP0C68,Thanks it worked,U03U1FNPEUX,Allchannells
+45,raised_hands,1,U03V61VGQG0,"I really got burnt out :broken_heart:, I hope that the tutors explain more about which tasks we should do and what not to do, I was working in the normalisation and standardisation for two day and not knowing that it will be explained today, and I wasted a lot of time figuring things that was explained easily today in the tutorial. I could use that time to do better in submitting todays task but unfortunately I didn’t. I hope from the tutors to explain what are our tasks, just for the first two weeks so that we get familiar with the flow and the tasks. 
+Thank you again for you wonderful efforts and I hope you take my notes as a honest feedback in order to make it better for all of us :heart:",U03V6HMRPGQ,Allchannells
+46,1,1,U03UP7V9Q57,"I really got burnt out :broken_heart:, I hope that the tutors explain more about which tasks we should do and what not to do, I was working in the normalisation and standardisation for two day and not knowing that it will be explained today, and I wasted a lot of time figuring things that was explained easily today in the tutorial. I could use that time to do better in submitting todays task but unfortunately I didn’t. I hope from the tutors to explain what are our tasks, just for the first two weeks so that we get familiar with the flow and the tasks. 
+Thank you again for you wonderful efforts and I hope you take my notes as a honest feedback in order to make it better for all of us :heart:",U03V6HMRPGQ,Allchannells
+47,heart,1,U03V6HMRPGQ,<@U03T89ACUUW> <@U03UP7V9Q57>,U03U93GNNVB,Allchannells
+48,1,1,U03UP7V9Q57,<@U03T89ACUUW> <@U03UP7V9Q57>,U03U93GNNVB,Allchannells
+49,white_check_mark,1,U03UG4Q7V42,Mee too.. Alright,U03UH397319,Allchannells
+50,1,2,"U03UG1RTXAP,U03UKL27B0R",I like the idea of the contest very much. I hope that will help us for our problem solving skill. Thank you <@U03UKL27B0R> for the presentation.,U03UG32J3PC,Allchannells
+51,slightly_smiling_face,3,"U03UJN29Y4C,U03V6HMRPGQ,U03UH397319","Hello everyone and dear team,
+We have plenty tasks that are not really easy to do and not small as well. Any advice about how to successfully manage in this kind of situation will be helpful.
+Thanks in advance.",U03UH397319,Allchannells
+52,1,5,"U03V61VGQG0,U03UG4Q7V42,U03UH397319,U03UG569P7U,U03UUS0MZCZ",I suggest that if  the managing team made a share experience session with one of 10 Academy alumni to share his experience on how he manage to deliver the tasks and time management also and what we should do to make the most out of this 3 months,U03V6HMRPGQ,Allchannells
+53,100,3,"U03U9DB7REG,U03UJN29Y4C,U03V6HMRPGQ","I think the best thing to do here is to have your own schedule. Everyone has a different attitude and approach toward things. And therefore the Aluminis advice might not be applicable to some and might be even bottom line impossible for others. And therefore I would like to recommend to you based on my imperceptible wisdom to have your own schedule at the beginning of the week. Take a look at that week's challenge doc. see what we are supposed to deliver (on the deliverables section) and after you understand what we need to complete and by when you then plan out the week. Now I think the most important part about the schedule is following it, you might not complete everything on time, and you might finish some before the allotted time frame ends, But for the unfinished tasks don't waste too much unscheduled time on them, as they will definitely take up the other tasks time. So by planning and following your schedule even if you don't complete everything you might manage to get lots done.
+
+Last but not least, don't forget other areas of your life in the meantime. Everyday balance is very necessary and is definitely, at least for me, what constitutes the good life.
+
+Good luck, and Godspeed!",U03UVHCV6KB,Allchannells
+54,1,1,U03UJKJGRAQ,"I think the best thing to do here is to have your own schedule. Everyone has a different attitude and approach toward things. And therefore the Aluminis advice might not be applicable to some and might be even bottom line impossible for others. And therefore I would like to recommend to you based on my imperceptible wisdom to have your own schedule at the beginning of the week. Take a look at that week's challenge doc. see what we are supposed to deliver (on the deliverables section) and after you understand what we need to complete and by when you then plan out the week. Now I think the most important part about the schedule is following it, you might not complete everything on time, and you might finish some before the allotted time frame ends, But for the unfinished tasks don't waste too much unscheduled time on them, as they will definitely take up the other tasks time. So by planning and following your schedule even if you don't complete everything you might manage to get lots done.
+
+Last but not least, don't forget other areas of your life in the meantime. Everyday balance is very necessary and is definitely, at least for me, what constitutes the good life.
+
+Good luck, and Godspeed!",U03UVHCV6KB,Allchannells
+55,1,1,U03UJKJGRAQ,"I believe that every person has it its own way to approach things, while some routs will not be appropriate for some other will be. And I totally believe that sharing our experience would benefit others like what you did, beside having a diversified experience examples could help you creat your own route. Thank you again for sharing your thoughts and I wish you all the best",U03V6HMRPGQ,Allchannells
+56,1,2,"U03UJKJGRAQ,U03V6HMRPGQ","And just to make myself clear the previous message was just a thought and not in any way resistance to the message you were transmitting, on how Aluminis sharing their schedule",U03UVHCV6KB,Allchannells
+57,1,1,U03U1FNPEUX,"taken from the data field description file.
+
+you can get the data  here
+
+<https://docs.google.com/spreadsheets/d/1wY7YZwyZ_r_8xMUe_N2ZQled4RjP0_T6/edit#gid=497912695>",U03UVHCV6KB,Allchannells
+58,white_check_mark,1,U03V6HMRPGQ,I think aggregation is performed on the UL and DL datum. You simply aggregate or add them and put them in a new column. For example Gaming DL + gaming UL becomes total gaming data. And for the clustering you use k-means. K=3. Ie 3 clusters. You can refer the following for clustering.,U03U1FNPEUX,Allchannells
+59,white_check_mark,1,U03V6HMRPGQ,<https://www.analyticsvidhya.com/blog/2021/01/in-depth-intuition-of-k-means-clustering-algorithm-in-machine-learning/|https://www.analyticsvidhya.com/blog/2021/01/in-depth-intuition-of-k-means-clustering-algorithm-in-machine-learning/>,U03U1FNPEUX,Allchannells
+60,1,2,"U03U1FQKEMV,U03UJN29Y4C",I think it's how many times the bearer id appeared for the same msisdn number. That's the XDR session per msisdn(or the unique user),U03U1FNPEUX,Allchannells
+61,1,2,"U03V6HMRPGQ,U03U1FQKEMV",I considered the MSISDN/Number as a customer id. but it has duplication which indicates the frequency. for example if a user with id 3345 appeared twice in the dataset it mean that it has 2 freq.,U03UJGRN5E0,Allchannells
+62,heart,1,U03V6HMRPGQ,"The general idea is, to first group the data by the msisdn/number and then sum/count the values related to a single msisdn/number.",U03UJGRN5E0,Allchannells
+63,white_check_mark,1,U03V6HMRPGQ,"<https://www.analyticsvidhya.com/blog/2021/01/in-depth-intuition-of-k-means-clustering-algorithm-in-machine-learning/|https://www.analyticsvidhya.com/blog/2021/01/in-depth-intuition-of-k-means-clustering-algorithm-in-machine-learning/>
+Check this out",U03U1FNPEUX,Allchannells
+64,100,1,U03V6HMRPGQ,,U03U1FNPEUX,Allchannells
+65,white_check_mark,1,U03U1FNPEUX,<!channel> Guidelines from tenx team on github submissions (Please review them): <https://10academy.notion.site/Github-Submissions-d113da4646be47cc924aa669a796b9ee>,U03T89ACUUW,Allchannells
+66,white_check_mark,1,U03UD68RQH3,no <@U03UJKJGRAQ> just a different link on the repo,U03UFV7HFNF,Allchannells
+67,heavy_check_mark,1,U03UJKJGRAQ,So your project should have different directories or branches for these tasks. If you have a directory or a branch for you dashboard then you submit the link to that directory and the same for the data analysis.,U03U9DB7REG,Allchannells
+68,white_check_mark,1,U03V8LHPDME,You will only be encoding features that are going to be fed to your model. The above features are just a unique identifiers which won't be useful for that model that you are going to build.,U03UKL27B0R,Allchannells
+69,raised_hands,1,U03UG32J3PC,"something like this can help you.
+```df.sort_values(by='column name)', ascending=False)```",U03U9FWPNCE,Allchannells
+70,1,1,U03U9FWPNCE,"`df.sort_values('column_name', ascending=False)`",U03UUR571A5,Allchannells
+71,1,2,"U03UJGRN5E0,U03UJN29Y4C","If you do, You will get a better clustering of your data",U03UG32J3PC,Allchannells
+72,heavy_check_mark,1,U03UJKJGRAQ,"If you do, You will get a better clustering of your data",U03UG32J3PC,Allchannells
+73,raised_hands,1,U03UVHCV6KB,<@U03UVHCV6KB>!!!!!!!! Thank you so much! I'll surely go over them.,U03UJN29Y4C,Allchannells
+74,raised_hands,1,U03UVHCV6KB,"This is what ive been looking for, thank you guys :raised_hands::skin-tone-4:",U03UJN29Y4C,Allchannells
+75,white_check_mark,1,U03UG32J3PC,"Thank very much <@U03UG32J3PC>, I'm still gonna dm though :see_no_evil:",U03UJN29Y4C,Allchannells
+76,white_check_mark,1,U03UJGP0C68,You will submit a single Repo. You can use a fit submodule for the dashboard if you want. ,U03UKL27B0R,Allchannells
+77,raised_hands,1,U03UVHCV6KB,You are not alone:people_hugging:,U03UG4Q7V42,Allchannells
+78,raised_hands,1,U03UVHCV6KB,It just feels you are talking about me! :cry:,U03U9FWPNCE,Allchannells
+79,raised_hands,1,U03UVHCV6KB,Same here ,U03V6HMRPGQ,Allchannells
+80,heavy_check_mark,1,U03UJKJGRAQ,"Sure, you can include both. ",U03UL5LSTG9,Allchannells
+81,100,2,"U03U1FNPEUX,U03TEPYRM2P",May the force be with us. Godspeed everyone.,U03UVHCV6KB,Allchannells
+82,heart,7,"U03UFV7HFNF,U03U1HAG9TR,U03UG1RTXAP,U03UJN29Y4C,U03UD4FEDHB,U03UG0YHAUT,U03UG569P7U",Welcome to week 2 everyone. Let's keep up the momentum :rocket:,U03TEPYRM2P,Allchannells
+83,raised_hands,5,"U03UJGP0C68,U03UG0YHAUT,U03U9EJR362,U03UD68RQH3,U03UG4Q7V42",Welcome to week 2 everyone. Let's keep up the momentum :rocket:,U03TEPYRM2P,Allchannells
+84,boom,1,U03V1AM5TFA,Welcome to week 2 everyone. Let's keep up the momentum :rocket:,U03TEPYRM2P,Allchannells
+85,white_check_mark,3,"U03UG1Z21JP,U03UG4Q7V42,U03U1HAG9TR",<https://www.kaggle.com/code/tammyrotem/ab-tests-with-python>,U03U9DB7REG,Allchannells
+86,raised_hands,2,"U03UVHCV6KB,U03UG0YHAUT",<https://www.kaggle.com/code/tammyrotem/ab-tests-with-python>,U03U9DB7REG,Allchannells
+87,1,1,U03UUMR26Q1,"I hope u'll find everything you need to know :point_up: on the videos
+but to wrap it up we've been introduced to the project we're gonna be working on for this week, and a tutorial by Narods on Classical A/B testing.",U03UD68RQH3,Allchannells
+88,1,1,U03UUMR26Q1,any time <@U03UUMR26Q1>,U03UD68RQH3,Allchannells
+89,1,1,U03UUMR26Q1,which session?,U03UUMR26Q1,Allchannells
+90,1,1,U03UUMR26Q1,the tutorial session we're in rn,U03UD68RQH3,Allchannells
+91,thinking_face,1,U03UVHCV6KB,How do you choose odd_ratio to run sequential test?,U03UH397319,Allchannells
+92,thinking_face,1,U03UVHCV6KB,How did you choose the minimum detectable effect.?,U03UH397319,Allchannells
+93,raised_hands,1,U03V6HMRPGQ,"<https://www.omnicalculator.com/statistics/p-value>
+
+this seems helpful, I just skimmed over it",U03UJGP0C68,Allchannells
+94,1,1,U03U9DB7REG,<@U03U9DB7REG> The link for hackerrank asks for permission,U03UG32J3PC,Allchannells
+95,1,1,U03UG4Q7V42,<@U03UG4Q7V42> thanks now,U03UH397319,Allchannells
+96,1,1,U03UKL27B0R,"<@U03UKL27B0R> sorry for the incident . We are two and others did leave the program. Today, I was not able to attend the sessions, and the deputy is somehow busy. I will watch the record. We are working on the challenge although we are too.",U03UG1Z21JP,Allchannells
+97,heart,3,"U03V6HMRPGQ,U03UH397319,U03UG1Z21JP","I think you are exactly on the right path my friend. We are all having this struggle brother, I really understand and feel your frustration. I just want you to know that you are not alone. Keep pushing, keeping the end goal in mind.
+
+The obstacle is the way.",U03UVHCV6KB,Allchannells
+98,white_check_mark,2,"U03V6HMRPGQ,U03U1HAG9TR","Thank you for expressing your thoughts. However, all the weekly challenges are real time challenges that you might encounter on the job. Here in 10Academy, we train our trainees on solving problems rather than reinventing the wheels. Most of the resources will only equip you with basic understanding of concepts, ability to apply the concept to solve challenges is one of the skills we require you to develop. Also, you should not be limited to the resources provided in the challenge document - you can expand your wings just to get the job done. I will urge to kindly manage your frustration and also reach out to other trainees here when you are having blockers - I know they will be eager to assist.",U03TEPYRM2P,Allchannells
+99,pray,1,U03UVHCV6KB,"Thank you for expressing your thoughts. However, all the weekly challenges are real time challenges that you might encounter on the job. Here in 10Academy, we train our trainees on solving problems rather than reinventing the wheels. Most of the resources will only equip you with basic understanding of concepts, ability to apply the concept to solve challenges is one of the skills we require you to develop. Also, you should not be limited to the resources provided in the challenge document - you can expand your wings just to get the job done. I will urge to kindly manage your frustration and also reach out to other trainees here when you are having blockers - I know they will be eager to assist.",U03TEPYRM2P,Allchannells
+100,white_check_mark,1,U03V6HMRPGQ,"I understand you concern <@U03V6HMRPGQ>, regardless,  we all need a shoulder to lean on sometimes. You've done well by pushing hard to solve the challenge yourself. However, you can always use the community after exhausting all your trials - this will save you time and energy. Can you specify the issue you are having in the challenge?",U03TEPYRM2P,Allchannells
+101,white_check_mark,2,"U03V8LHPDME,U03UJGRN5E0","if it has been edited that only proves my previous thought. It seems like they edited it on purpose, so use the current repo",U03UVHCV6KB,Allchannells
+102,raised_hands,1,U03UVHCV6KB,If you've started using two repositories merging your work from the two repos into the one with the least work would be easier. The interim and final submission will be a single link so choose one and continue using that.,U03V8LHPDME,Allchannells
+103,raised_hands,3,"U03UVHCV6KB,U03UJGRN5E0,U03UG32J3PC",It was to ease and separate the many functionalities you'll do this week. You can use 2 repositories but if you've not yet created 2 please continue on the single repository.,U03V8LHPDME,Allchannells
+104,heart,2,"U03V6HMRPGQ,U03UFV7TUTV",<@U03V6HMRPGQ> thank you for expressing your frustration - this is very helpful for us to grow and address limitations in the training.,U03UUN8M4RX,Allchannells
+105,100,2,"U03UVHCV6KB,U03UFV7TUTV","Work simulation  means the problems and resources you are given mirrors what you would get in a real job. Our desire of course is not to mirror 100% of that, but to help you understand the facts while supporting you with active community and tutors, which you won’t have in the real life job. We hope then through this community + tutors support plus a clearly written tasks together with a starting reference in the challenge document, you would be able to get the best of both worlds - solve the problem much quickly than the time it would take you in the real job while practicing the real life scenario.",U03UUN8M4RX,Allchannells
+106,heart,1,U03V6HMRPGQ,"Our system is of course not 100% perfect, so we can always improve. In your case, can you share which tasks you were trying to solve and what resources would have been a good reference?",U03UUN8M4RX,Allchannells
+107,white_check_mark,1,U03UUN8M4RX,I think for the machine learning part you should use the groups that has more sample.,U03UUR571A5,Allchannells
+108,raised_hands,1,U03UVHCV6KB,<https://meet.google.com/ysb-kjdn-hpp>,U03UFV7HFNF,Allchannells
+109,raised_hands,1,U03UVHCV6KB,<https://10academy.notion.site/fbb7cd301a7948b698d9953fdeeb414d?v=88c78bae0a42459f8ba07339b44d512b>,U03UFV7HFNF,Allchannells
+110,raised_hands,1,U03UVHCV6KB,"<@U03U9DB7REG> for the assignment of ""10 Academy HackerRank Account"" due today. After filling the google form, should we mark as done, or do we need to submit something?",U03UJKJGRAQ,Allchannells
+111,raised_hands,1,U03UJKJGRAQ,"nice one, I think we are only supposed to fill in the google form.",U03UVHCV6KB,Allchannells
+112,eyes,1,U03UG1Z21JP,"hi, in task 2.2, when splitting the data by browser and platform_os, is this after transforming it (removing rows of non-responsive users) or do we transform it _then_ split it?
+
+also, are we supposed to split the raw data we were provided by browser and platform_os or can we also split aggregates of the raw data, like splitting a dataset the control group and another one containing the exposed group?",U03UD5B7C3X,Allchannells
+113,raised_hands,1,U03UVHCV6KB,"hi, in task 2.2, when splitting the data by browser and platform_os, is this after transforming it (removing rows of non-responsive users) or do we transform it _then_ split it?
+
+also, are we supposed to split the raw data we were provided by browser and platform_os or can we also split aggregates of the raw data, like splitting a dataset the control group and another one containing the exposed group?",U03UD5B7C3X,Allchannells
+114,1,1,U03UFV7TUTV,"Hello everyone The dvc api might not get you the data you require when you use
+
+data_url = dvc.api.get_url(
+    path = path,
+    repo = repo,
+    rev = version
+)
+
+So like <@U03UUR571A5> specified on our call if you're having issues when using multiple versions on DVC specify the data_url manually as we were only using it to get the data from DVC and using it on `pd.read_csv()`. So logging manually should be a quick workaround and use the log_param to output the specific versions. If you're facing any issues send them here!",U03V8LHPDME,Allchannells
+115,white_check_mark,1,U03UD68RQH3,or a pip install dvc-gdrive,U03V8LHPDME,Allchannells
+116,raised_hands,1,U03UD68RQH3,"Yeah install it with either of these
+1. choco install dvc
+2. conda install -c conda-forge mamba # installs much faster than conda
+     $ mamba install -c conda-forge dvc
+3.
+```pip install dvc```",U03UGB3T3MY,Allchannells
+117,raised_hands,1,U03UVHCV6KB,"Who can explain this am confused 
+
+Task 2, says split ur data by browser and os...., Does it mean to split our data by browser type and OS type and versioning each ...., or just splitting our dataset into two data frames browser and OS??
+
+<@U03V8LHPDME> <@U03UKL27B0R>",U03V5Q9N516,Allchannells
+118,raised_hands,2,"U03UVHCV6KB,U03V61VGQG0","You will be creating a separate dataset, one grouped by browser and the other by platform and so on then track them separately using DVC.",U03UKL27B0R,Allchannells
+119,raised_hands,1,U03UVHCV6KB,windows 10 but I dev environment is wsl2,U03UD68RQH3,Allchannells
+120,fire,1,U03V8LHPDME,"the actual data is not stored on GitHub. in fact when you use dvc push it automatically put the data path into .gitignore file so that the data will not be pushed into the GitHub.
+so basically what is saved in GitHub is only the metadata of the different versions of the actual data.
+I hope I clarify it.",U03UFV7HFNF,Allchannells
+121,1,2,"U03UFV7TUTV,U03UJN29Y4C","I definitely caused some confusion so to clear things up --
+
+From a fresh setup, you start off with these commands by initializing a git and a DVC repository
+```git init
+dvc init
+git commit -m ""initial commit""```
+You then follow on to set the DVC remote -- this is the MOST crucial step and should be done first because messing with different remotes and then tracking the changes on multiple unsynchronized remotes will lead to unnecessary complications as we saw.
+```dvc remote add -d myremote <gdrive://folderid>
+git commit -m ""sets dvc remote""```
+the remote URL can be in your local file system but using google drive will be really helpful for collaboration as you are working in teams. Please follow this <https://dvc.org/doc/user-guide/setup-google-drive-remote|link> to learn more.
+
+After this will follow the steps where you will actually track the data.
+```dvc add path_to_data
+git add path_to_data.dvc
+git commit -m ""data:track""```
+You then tag the specific commit and then push it to your DVC remote using `dvc push`
+```git tag -a 'v1' -m ""raw data""
+dvc push```
+The final two steps are the only steps that are necessary and the steps you'll iterate over and over once DVC and your DVC remote are set and you start making changes to your data.",U03V8LHPDME,Allchannells
+122,slightly_smiling_face,1,U03UVHCV6KB,"For the second - I believe that we're hitting the gap between school with this approach.  If your manager gives you a task to get done, do you expect him-her to guide you on how to do every step of it?",U03U93GNNVB,Allchannells
+123,white_check_mark,3,"U03UJGP0C68,U03UG4Q7V42,U03UFV7HFNF","`SELECT COUNTRY.Continent, FLOOR(AVG(CITY.Population))`
+`From COUNTRY`
+`INNER JOIN CITY`
+`ON CITY.CountryCode = COUNTRY.Code`
+`GROUP BY COUNTRY.Continent;`",U03UD68RQH3,Allchannells
+124,heavy_check_mark,1,U03UJKJGRAQ,"`SELECT COUNTRY.Continent, FLOOR(AVG(CITY.Population))`
+`From COUNTRY`
+`INNER JOIN CITY`
+`ON CITY.CountryCode = COUNTRY.Code`
+`GROUP BY COUNTRY.Continent;`",U03UD68RQH3,Allchannells
+125,sob,1,U03U9FWPNCE,im having the same issue,U03UJGP0C68,Allchannells
+126,1,1,U03U9FWPNCE,ok thanks bro,U03UJGP0C68,Allchannells
+127,white_check_mark,1,U03UUR571A5,thanks for help bro! u did everything!,U03UJH1EQQL,Allchannells
+128,white_check_mark,1,U03UG1Z21JP,"try uninstalling pathlib
+`pip uninstall pathlib`
+
+uninstall dvc and reinstall the version fish stated",U03V8LHPDME,Allchannells
+129,raised_hands,1,U03UVHCV6KB,:rolling_on_the_floor_laughing: wrong channel but im addicted too:triumph:,U03UG4Q7V42,Allchannells
+130,cry,1,U03UVHCV6KB,not yet..am trying from scratch again!,U03UJH1EQQL,Allchannells
+131,1,1,U03UVHCV6KB,Thanks <@U03UVHCV6KB>,U03UAKATQ22,Allchannells
+132,1,1,U03V6HMRPGQ,We also choose yes as the target variable and for the loss functions we choose <https://machinelearningmastery.com/how-to-choose-loss-functions-when-training-deep-learning-neural-networks/#Binary%20Classification%20Loss%20Functions|https://machinelearningmastery.com/how-to-choose-loss-functions-when-training-deep-learning-neural-networks/#Binary%20Classific[…]20Loss%20Functions>,U03UVHCV6KB,Allchannells
+133,1,1,U03V6HMRPGQ,Mean squared error might be a good loss function for classification problem <@U03V6HMRPGQ>. Please have a look at list of loss function for the current problem. Resource shared by <@U03UVHCV6KB> is also great.,U03UKL27B0R,Allchannells
+134,raised_hands,2,"U03UVHCV6KB,U03V6HMRPGQ",Please just do your best,U03U93GNNVB,Allchannells
+135,pray,5,"U03U1FNPEUX,U03UG1RTXAP,U03UFV7TUTV,U03UG4Q7V42,U03UG5VFN03","Hello dears, how is your day?  Thanks to God we did it. Nice to see you here in week3 guys. Whish you best for the rest of your journey.
+BTW don't we have meeting in google today. I don't see any link. I you see Please share me.",U03UGB3T3MY,Allchannells
+136,1,1,U03UUMR26Q1,"Hello dears, how is your day?  Thanks to God we did it. Nice to see you here in week3 guys. Whish you best for the rest of your journey.
+BTW don't we have meeting in google today. I don't see any link. I you see Please share me.",U03UGB3T3MY,Allchannells
+137,1,1,U03U9FWPNCE,This week is individual work,U03UP7V9Q57,Allchannells
+138,heavy_check_mark,1,U03UJKJGRAQ,"I'd like more explanation on the Promo2 column description please
+
+Promo2 is a continuing and consecutive promotion for some stores: 0 = store is not participating, 1 = store is participating.",U03UJN29Y4C,Allchannells
+139,1,1,U03V6HMRPGQ,Yes saving a copy on github does the job,U03UJN29Y4C,Allchannells
+140,sunglasses,1,U03V6HMRPGQ,<https://github.com/10xac/PythonPackageStructure>,U03UG4Q7V42,Allchannells
+141,raised_hands,1,U03UG4Q7V42,"thank you <@U03UJN29Y4C>.
+<@U03UG4Q7V42> always ready for help ma maan :fire:",U03V6HMRPGQ,Allchannells
+142,1,1,U03UKL27B0R,"okay thank you, that what come to my mind now",U03V6HMRPGQ,Allchannells
+143,heavy_check_mark,1,U03V6HMRPGQ,its in the store data set that you find supplementary information about the stores. over one thousand stores,U03U1FNPEUX,Allchannells
+144,1,1,U03V6HMRPGQ,For time data forward fill is good I think,U03U1FNPEUX,Allchannells
+145,eyes,1,U03UUR571A5,"Yea, that why data type casting is a must.",U03UJGRN5E0,Allchannells
+146,1,1,U03UFV7TUTV,"`dvc init`
+`git remote add -d remote-name <gdrive://FolderID>`
+`git commit -m 'sets dvc remote'`
+`dvc add path_to_data`
+`git add path_to_data.dvc`
+`git commit -m 'data:track'`
+`git tag -a 'v1' -m 'raw data'`
+`dvc push`",U03UFV7HFNF,Allchannells
+147,1,1,U03UFV7HFNF,Thanks,U03UG5VFN03,Allchannells
+148,1,1,U03UUMR26Q1,"check the weekly challenge documents, There are guides on how to do a good eda. Task 1",U03U1FNPEUX,Allchannells
+149,raised_hands,1,U03UVHCV6KB,"yeah this library was causing errors for me too
+i used another way to read data from the dvc instead of using get_url use ( also for <@U03UG4Q7V42>)
+
+```data = dvc.api.read(path=path,repo=repo, rev=rev)
+df = pd.read_csv(io.StringIO(data),low_memory=False)
+return df```",U03UJGP0C68,Allchannells
+150,white_check_mark,2,"U03UVHCV6KB,U03UG1RTXAP","yeah this library was causing errors for me too
+i used another way to read data from the dvc instead of using get_url use ( also for <@U03UG4Q7V42>)
+
+```data = dvc.api.read(path=path,repo=repo, rev=rev)
+df = pd.read_csv(io.StringIO(data),low_memory=False)
+return df```",U03UJGP0C68,Allchannells
+151,raised_hands,1,U03UVHCV6KB,yeah i am also going through that route. thanks fish,U03UG4Q7V42,Allchannells
+152,raised_hands,1,U03UJGP0C68,It actually worked thanks <@U03UJGP0C68>,U03UVHCV6KB,Allchannells
+153,raised_hands,1,U03UG4Q7V42,"creating a virtual environment works, thank you guys",U03UJN29Y4C,Allchannells
+154,white_check_mark,1,U03UJGP0C68,"Generally if your data isn't related to the timestamp and have no seasonality or trend, you can handle that with the normal way(mean, median).",U03UKL27B0R,Allchannells
+155,raised_hands,1,U03UVHCV6KB,Just do it again in the right one!,U03UJH1EQQL,Allchannells
+156,joy,1,U03UVHCV6KB,"hey guys I faced this problem , you could easily
+```pip install gdrivefs   ```",U03V6HMRPGQ,Allchannells
+157,raised_hands,2,"U03UVHCV6KB,U03UFV7TUTV","<@U03UKL27B0R>, it is a gentle reminder. for sharing resources for handlining missing data in TSA",U03V6HMRPGQ,Allchannells
+158,1,1,U03UG1RTXAP,<@U03UUR571A5> but the deliverable for Wednesday is task 1?,U03UUP56MDF,Allchannells
+159,laughing,1,U03V6HMRPGQ,you made my day <@U03V6HMRPGQ>!!,U03UVHCV6KB,Allchannells
+160,raised_hands,1,U03UVHCV6KB,<@U03UKL27B0R> can we get the notebook for todays tutorial as well?,U03UUP56MDF,Allchannells
+161,white_check_mark,1,U03UVHCV6KB,<@U03UKL27B0R> can we get the notebook for todays tutorial as well?,U03UUP56MDF,Allchannells
+162,smiling_face_with_tear,1,U03V6HMRPGQ,"Yes kind of, I tried that and this happened.
+<https://10academybatch6.slack.com/archives/C0412KS4FGC/p1662466825718689>",U03UVHCV6KB,Allchannells
+163,fire,2,"U03V6HMRPGQ,U03UFV7HFNF","Thanks for the reply, what i found out was the files to be tracked with dvc should not already be in the gdrive remote folder.",U03UJN29Y4C,Allchannells
+164,raised_hands,1,U03V6HMRPGQ,"my files were already in it, i tried dvc pull and it doesnt work. I sincerely hope they fix it.
+
+PS: dvc pull worked only after pushing first
+
+PSS:  dvc get can get your files from a url in case you dont have your files on your locale machine",U03UJN29Y4C,Allchannells
+165,white_check_mark,1,U03UG4Q7V42,"so after get basic knowledge about fill missing data in the time series analysis,
+I feel that filling those 2 columns with previous tsa filling methods is logical
+`CompetitionOpenSinceMonth`   
+`CompetitionOpenSinceYear`
+*but what I cannot find it realistic is filling those 3 columns* 
+`Promo2SinceWeek`        
+`Promo2SinceYear`        
+`PromoInterva`           
+because they are not existed and filling them will make data bias, because it will get some stores running a promotion 2 (which is promo that multiple stores participate on it, while others dont ).
+how that come ? I couldn't understand the purpose of filling them",U03V6HMRPGQ,Allchannells
+166,white_check_mark,1,U03V6HMRPGQ,"for my side what I have done was put 0,0,0,0 for the interval and 0 for the other two, reason being all those null values appear in the same row which means no promo ever applied makes more sense, no promo ever applied refers to that 0,0,0,0 means no interval, promo2sinceweek 0, and year too.",U03UUR571A5,Allchannells
+167,1,2,"U03V6HMRPGQ,U03UFV7TUTV","I thought of that but how would you represent that as a value for the columns, thats why I have gone with the other approach.",U03UUR571A5,Allchannells
+168,white_check_mark,1,U03UG32J3PC,"use this
+```content =dvc.api.read(path=path, repo=repo, rev=version)
+df = pd.read_csv(io.StringIO(content), sep="","")```",U03UJGRN5E0,Allchannells
+169,white_check_mark,1,U03UJGRN5E0,"Yes. 
+repo = '../'",U03UG1RTXAP,Allchannells
+170,raised_hands,1,U03UAKATQ22,You can use the tag you created with git,U03UG1RTXAP,Allchannells
+171,raised_hands,1,U03U1FNPEUX,"I might be a little late but there is this python package called holidays. it generates a dictionary of holidays given a location.
+<https://pypi.org/project/holidays/>",U03U1HAG9TR,Allchannells
+172,1,1,U03UJKJGRAQ,i'd love a getting started walkthrough on mlflow and cml,U03UJN29Y4C,Allchannells
+173,1,1,U03UG5VFN03,No it's been postponed,U03UD68RQH3,Allchannells
+174,raised_hands,1,U03UG5VFN03,To 1 p.m. UTC,U03U1HAG9TR,Allchannells
+175,raised_hands,5,"U03UG32J3PC,U03UD68RQH3,U03UUR571A5,U03UFV7HFNF,U03V8LHPDME","<!channel>, We will have a session on DVC to clear up things right after heroku's session.",U03UKL27B0R,Allchannells
+176,1,2,"U03UUMM7Y8H,U03UHB8CXDY","<!channel>, We will have a session on DVC to clear up things right after heroku's session.",U03UKL27B0R,Allchannells
+177,heavy_check_mark,1,U03UJKJGRAQ,"<@U03UJKJGRAQ> , 
+I will probably use an example to make it clear.
+Suppose you want everyone to access your dashboard every time, but if you shutdown your laptop everything will go off including your application. So if you deploy it on cloud, it is like hiring another service to keep your app and run all the time.",U03U9FWPNCE,Allchannells
+178,heavy_check_mark,1,U03UKL27B0R,"If you are using python3.10 the package name is no longer fbprophet, just try pip install prophet",U03UUR571A5,Allchannells
+179,raised_hands,1,U03UUR571A5,Thanks,U03UH397319,Allchannells
+180,1,1,U03UVHCV6KB,:pray: <@U03UVHCV6KB>,U03UD4FEDHB,Allchannells
+181,raised_hands,1,U03UVHCV6KB,"`def split_date(df):`
+    `df['Date'] =   <http://pd.to|pd.to>_datetime(df['Date'])`
+    `df['Year'] = df.Date.dt.year`
+    `df['Month'] = df.Date.dt.month`
+    `df['Day'] = df.Date.dt.day`
+    `df['WeekOfYear'] = df.Date.dt.isocalendar().week`
+    `df[""Day of Week""] = df.Date.dt.dayofweek`
+    `df[""Is Weekend""] = df.Date.dt.dayofweek &gt; 4`                            ",U03UG1Z21JP,Allchannells
+182,eyes,1,U03UVHCV6KB,Is taking forever to run my model,U03UH397319,Allchannells
+183,pray,6,"U03UFV7TUTV,U03U1FNPEUX,U03U9DB7REG,U03UG4Q7V42,U03UJN29Y4C,U03UG1Z21JP","Hello <!channel>
+ How are you doing? I missed you, the tutor and the challenge today. I
+was flying from Bahir Dar to Addis Ababa then to Bahir Dar today. There
+was a critical lab to be done in 4 hours of interval in Addis to be
+turned back to Bahir Dar Tibebe Giyon Specialized hospital. Even if it
+was so much terrible, I was happy to achieve bringing lab results to my
+sister's doctors at Bahir Dar. I am still trying my best to be with you
+all buddies:broken_heart:.",U03UUMM7Y8H,Allchannells
+184,1,1,U03UUMM7Y8H,fast recovery for her:pray:. You are very determined!,U03U1FNPEUX,Allchannells
+185,1,1,U03UFV7TUTV,"Thank you very much <@U03UFV7TUTV>
+It works now using tensorflow 2.10. with  protobuf=4.21
+Note:
+export PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION=cpp
+or check this--&gt;<https://developers.google.com/protocol-buffers/docs/reference/python-generated#sharing-messages>",U03U9EJR362,Allchannells
+186,raised_hands,1,U03UVHCV6KB,okay let me try it.,U03UFV7HFNF,Allchannells
+187,raised_hands,1,U03UVHCV6KB,Yeah it worked. Thanks,U03UFV7HFNF,Allchannells
+188,1,1,U03UFV7TUTV,"I did not do great this week because of my health.. Hopefully, I will be in healthy to face the next week challenge.. 
+
+I've just managed to submit the tasks.
+
+Good weekend to everyone.",U03UH397319,Allchannells
+189,pray,4,"U03UFV7TUTV,U03U1FNPEUX,U03U9EJR362,U03UUR571A5","I did not do great this week because of my health.. Hopefully, I will be in healthy to face the next week challenge.. 
+
+I've just managed to submit the tasks.
+
+Good weekend to everyone.",U03UH397319,Allchannells
+190,pray,8,"U03UFV7HFNF,U03U1HAG9TR,U03U1GHT39V,U03U1J51VFZ,U03U9EJR362,U03UG0SFHGT,U03U1FNPEUX,U03UFV7TUTV", Welcome to week 4 :rocket:,U03TEPYRM2P,Allchannells
+191,raised_hands,1,U03UD68RQH3,"prompt vs the art from mid-journey, impressive, how it maps abstract art.",U03V785NLSU,Allchannells
+192,raised_hands,4,"U03UG32J3PC,U03UFV7HFNF,U03UG4Q7V42,U03UUR571A5",generated Using Midjourney:,U03U1GHT39V,Allchannells
+193,raised_hands,6,"U03UG4Q7V42,U03UUR571A5,U03UD4FEDHB,U03UFV7TUTV,U03UHB8CXDY,U03U9DB7REG",Group of girls celebrating #ASHENDA on August.,U03UFV7HFNF,Allchannells
+194,1,7,"U03UFV7TUTV,U03UFV7HFNF,U03UVHCV6KB,U03UUR571A5,U03UH397319,U03U1FNPEUX,U03U1HAG9TR","Hi everyone <!here> I hope everyone had a great start of week 4. You received an email from <mailto:train@10academy.org|train@10academy.org> on the selection criteria to qualify for week 5 of intensive training. if you read it, fine and thanks! If you haven't, please visit your e-mail and read it carefully. Tomorrow, we will send you a ""what's next after week 4"" email for you to have a clear mind of what's coming up after week 4.",U03T89ACUUW,Allchannells
+195,1,4,"U03UFV7TUTV,U03U1FNPEUX,U03U1HAG9TR,U03UG1Z21JP",cheers and good night y'all!,U03T89ACUUW,Allchannells
+196,broken_heart,1,U03V6HMRPGQ,I'm in,U03UJN29Y4C,Allchannells
+197,broken_heart,1,U03V6HMRPGQ,great I'm in,U03UGB3T3MY,Allchannells
+198,heart,1,U03V6HMRPGQ,<@U03V6HMRPGQ> Can we take your idea and duplicate?,U03U93GNNVB,Allchannells
+199,raised_hands,3,"U03UG4Q7V42,U03V6HMRPGQ,U03U9DB7REG","Good morning, friends, tonight I have seen my grandpa in my dream, I have generated an old man telling a story to a child. Have a nice day.",U03UGB3T3MY,Allchannells
+200,heart,1,U03V6HMRPGQ,"<@U03V6HMRPGQ> Alright, it's fine",U03UJN29Y4C,Allchannells
+201,heart,1,U03V6HMRPGQ,<@U03UP7V9Q57> <@U03T89ACUUW> Could you figure out how we can duplicate this?,U03U93GNNVB,Allchannells
+202,1,1,U03UP7V9Q57,<@U03UP7V9Q57> <@U03T89ACUUW> Could you figure out how we can duplicate this?,U03U93GNNVB,Allchannells
+203,raised_hands,2,"U03UHB8CXDY,U03UFV7TUTV","Join
+<https://meet.google.com/ysb-kjdn-hpp>",U03U9EJR362,Allchannells
+204,joy,8,"U03UD68RQH3,U03U9EJR362,U03UG4Q7V42,U03V61VGQG0,U03UG0SFHGT,U03U1HAG9TR,U03UFV7TUTV,U03UJKJGRAQ",<@U03UJKJGRAQ> question broke the gmeet ! haha,U03UVHCV6KB,Allchannells
+205,raised_hands,1,U03UVHCV6KB,she really was asking great questions,U03UG4Q7V42,Allchannells
+206,raised_hands,1,U03UVHCV6KB,Yeah,U03UFV7TUTV,Allchannells
+207,1,1,U03UJKJGRAQ,I don't think there's a more detailed naming for what we'll produce. The MLOps pipeline for using LLMs seems right,U03UP7V9Q57,Allchannells
+208,raised_hands,2,"U03UJGRN5E0,U03UG1Z21JP","Also just to ask, who is on MacOS here?",U03UP7V9Q57,Allchannells
+209,1,1,U03UP7V9Q57,I am,U03UJN29Y4C,Allchannells
+210,1,9,"U03UFV7HFNF,U03UJGRN5E0,U03UG32J3PC,U03UD4FEDHB,U03U9EJR362,U03UG4Q7V42,U03U1HAG9TR,U03UVHCV6KB,U03UFV7TUTV","let me know what else is not clear, and I will update it to make it clear",U03UUN8M4RX,Allchannells
+211,heavy_check_mark,1,U03UJKJGRAQ,"Just to update this <@U03UJKJGRAQ> , I hope you've seen the update on the challenge document. The response here would change to 'an API'. So we'll target to produce an API that can be used to score documents",U03UP7V9Q57,Allchannells
+212,raised_hands,8,"U03UG32J3PC,U03UFV7HFNF,U03U9EJR362,U03UUR571A5,U03U1HAG9TR,U03V6HMRPGQ,U03UD68RQH3,U03UFV7TUTV",Ethiopian James Bond,U03UG4Q7V42,Allchannells
+213,rolling_on_the_floor_laughing,1,U03UH397319,Ethiopian James Bond,U03UG4Q7V42,Allchannells
+214,skull,2,"U03UG4Q7V42,U03U1HAG9TR","I don't see you there:smile:, you should train it to know Fisseha",U03V785NLSU,Allchannells
+215,skull,2,"U03U9DB7REG,U03UD68RQH3",they done gave him a 'Tenefanef':sweat_smile:,U03UG4Q7V42,Allchannells
+216,1,2,"U03UFV7TUTV,U03U9EJR362",Lets keep the images coming. And use the <#C03TBUCU4UD|random> channel.,U03U9DB7REG,Allchannells
+217,1,2,"U03U9DB7REG,U03UFV7TUTV",,U03UG0YHAUT,Allchannells
+218,white_check_mark,1,U03UUR571A5,Alright thanks,U03UJN29Y4C,Allchannells
+219,raised_hands,6,"U03UVHCV6KB,U03UD68RQH3,U03V785NLSU,U03U1FNPEUX,U03UG4Q7V42,U03UFV7TUTV","I think you are right....
+1. Read and research on prompt engineering and its algorithms
+    a. understand transformer algorithm
+    b. understand basics of GPT
+2. Then, I believe the next step after setting up your repo is EDA on the given datasets and customizing the data to get better performances(results) from the co:here api.
+    a. you will be working on creating the best input data out of the given dataset
+    b. you consume the co:here API (simply send you prepared data to the api and you receive predictions from the model)
+    c. Finally you put all these steps together by creating your own API
+    d. your API should have two end-point ( i think they behave more or less the same): one endpoint for the news scoring and the other endpoint for extracting entities from job description
+        i. So here is what you will do: your api should accept dataset(in json format possibly) then you transform, clean, feature engineer, the received data through your pipeline then send the prepared data to the co:here API, (notice there are two APIs involving in this project)....then you present the results via UI
+Your API accept data-&gt;you transform data through pipeline-&gt;send prepared data to co:here-&gt; receive predictions -&gt; return the results to the user via UI
+That is wha I understood from the guidelines....(please, remind me if I miss anything)",U03UJGP0C68,Allchannells
+220,white_check_mark,2,"U03UVHCV6KB,U03UJN29Y4C","I think you are right....
+1. Read and research on prompt engineering and its algorithms
+    a. understand transformer algorithm
+    b. understand basics of GPT
+2. Then, I believe the next step after setting up your repo is EDA on the given datasets and customizing the data to get better performances(results) from the co:here api.
+    a. you will be working on creating the best input data out of the given dataset
+    b. you consume the co:here API (simply send you prepared data to the api and you receive predictions from the model)
+    c. Finally you put all these steps together by creating your own API
+    d. your API should have two end-point ( i think they behave more or less the same): one endpoint for the news scoring and the other endpoint for extracting entities from job description
+        i. So here is what you will do: your api should accept dataset(in json format possibly) then you transform, clean, feature engineer, the received data through your pipeline then send the prepared data to the co:here API, (notice there are two APIs involving in this project)....then you present the results via UI
+Your API accept data-&gt;you transform data through pipeline-&gt;send prepared data to co:here-&gt; receive predictions -&gt; return the results to the user via UI
+That is wha I understood from the guidelines....(please, remind me if I miss anything)",U03UJGP0C68,Allchannells
+221,eyes,2,"U03UVHCV6KB,U03UG1Z21JP","I think you are right....
+1. Read and research on prompt engineering and its algorithms
+    a. understand transformer algorithm
+    b. understand basics of GPT
+2. Then, I believe the next step after setting up your repo is EDA on the given datasets and customizing the data to get better performances(results) from the co:here api.
+    a. you will be working on creating the best input data out of the given dataset
+    b. you consume the co:here API (simply send you prepared data to the api and you receive predictions from the model)
+    c. Finally you put all these steps together by creating your own API
+    d. your API should have two end-point ( i think they behave more or less the same): one endpoint for the news scoring and the other endpoint for extracting entities from job description
+        i. So here is what you will do: your api should accept dataset(in json format possibly) then you transform, clean, feature engineer, the received data through your pipeline then send the prepared data to the co:here API, (notice there are two APIs involving in this project)....then you present the results via UI
+Your API accept data-&gt;you transform data through pipeline-&gt;send prepared data to co:here-&gt; receive predictions -&gt; return the results to the user via UI
+That is wha I understood from the guidelines....(please, remind me if I miss anything)",U03UJGP0C68,Allchannells
+222,raised_hands,1,U03UJGP0C68,"<@U03UJGP0C68> <@U03UKL27B0R> Thank you very much. Your replies has given me a clearer view on how to go about the challenge technically. 
+
+This makes getting through less overwhelming :blush:",U03UJN29Y4C,Allchannells
+223,raised_hands,1,U03V6HMRPGQ,I think it would be nice if you get API key from co:here or bloom and just do some basic requests on maybe prompt based text extraction and receive some output from the APIs,U03UVHCV6KB,Allchannells
+224,white_check_mark,1,U03V6HMRPGQ,"Yes, you need to setup your env to with different endpoints as it has been specified in the challenge document. It would be a plus if you can connect with one of the available api and get data from the LLM model. Please have a look at the rubrics section of the challenge document.",U03UKL27B0R,Allchannells
+225,white_check_mark,1,U03V6HMRPGQ,I mean you have to create them,U03UD68RQH3,Allchannells
+226,raised_hands,2,"U03UJKJGRAQ,U03UVHCV6KB","first you have to create your folder/file structures
+put that in your git repo
+then go to settings -&gt; check ""Template this repository""
+
+or you can follow these easy steps <https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-template-repository>",U03UJGP0C68,Allchannells
+227,white_check_mark,2,"U03V6HMRPGQ,U03UJKJGRAQ",then next time you create a new repository you can use these as template by choosing your template from the dropdown,U03UJGP0C68,Allchannells
+228,white_check_mark,1,U03UUR571A5,"alright, thanks",U03UJN29Y4C,Allchannells
+229,white_check_mark,1,U03UUR571A5,Thanks you all again. I have used dotenv and it worked fine.,U03UFV7HFNF,Allchannells
+230,raised_hands,1,U03UJGP0C68,"Yes, what I did was take few samples from the test and preprocess it the same way I preprocess the training data and create tuned model just to check if it improves while I am requesting generation.",U03UUR571A5,Allchannells
+231,white_check_mark,1,U03UJN29Y4C,"This is a great reflection
+• *I don’t even know how two steps connects* - best to highlight through asking in slack when you notice that. This is an important realisation and finding a quick way to fill the gap is essential
+",U03UUN8M4RX,Allchannells
+232,white_check_mark,1,U03UJN29Y4C,"• *I don’t know which stage database population comes in and why it’s needed -* again this is great realisation - I always have to deal with it myself everyday. It is exactly here I know I will grow to the next level - when I find the solution to understand why this is needed. I will read, contextualise, and try to see it from a “Google manager” or “Facebook engineer” point of view to scale the problem and put the stake high ",U03UUN8M4RX,Allchannells
+233,white_check_mark,1,U03UJN29Y4C,"• *when I have step by step guide of what needs to be done* - everyone works best that way actually, they just don’t come that way. Only artificial problems (those without value) actually have that nature. The rest, you have to deal with a vague instruction. ",U03UUN8M4RX,Allchannells
+234,white_check_mark,1,U03UJN29Y4C,"You have to know, there is little to be done from one’s comfort zone. It is the sweet pleasure of walking in the not so clear path, but finding your way out and adding value that is the most essential",U03UUN8M4RX,Allchannells
+235,eyes,1,U03UVHCV6KB,"Of course that said, planning and making strategy around the problem, and getting feedback from others makes life easy and significantly improves the quality and speed of the outcome. You did exactly that in the other thread, so you are in the right track.",U03UUN8M4RX,Allchannells
+236,pray,1,U03UJN29Y4C,"Of course that said, planning and making strategy around the problem, and getting feedback from others makes life easy and significantly improves the quality and speed of the outcome. You did exactly that in the other thread, so you are in the right track.",U03UUN8M4RX,Allchannells
+237,raised_hands,1,U03UVHCV6KB,"So I was recommended to use python dotenv and I have worked for me.
+Here the steps
+`pip install python-dotenv`  
+create `.env file and WRITE COHERE_SECURE=""PASTE YOUR API KEY HERE"" INSIDE IT` 
+ADD `.env file`  in .gitignore
+Next put this on notebook
+`import os`
+`from dotenv import load_dotenv`
+
+`load_dotenv()`
+
+`COHERE_API_KEY = os.getenv('COHERE_API_KEY')`",U03UFV7HFNF,Allchannells
+238,raised_hands,1,U03UVHCV6KB,You're welcome.,U03UFV7HFNF,Allchannells
+239,white_check_mark,2,"U03V6HMRPGQ,U03UHB8CXDY","In terms of the news I guess using classify is more efficient than embed but since we have very limited sample and since classify has an example input limit, you have to use embed, but before proceeding to that I suggest you try to truncate the description and body with out loosing the context, then try to group the data based on their analytic scores, so like give a class for each score so for example you do first classify below 5 and above 5, then based on that class you do an other classification for the bottom and top classes, since we have very limited data just try to classify it in a way that fits your approach, then split your data and do the classification/embedding.",U03UUR571A5,Allchannells
+240,white_check_mark,1,U03UUR571A5,"thank you <@U03UUR571A5>.I will try todo so,thank yo very much",U03V6HMRPGQ,Allchannells
+241,raised_hands,1,U03U9EJR362,<https://docs.acquia.com/cloud-platform/manage/ssh/generate/>,U03UG32J3PC,Allchannells
+242,raised_hands,1,U03UG32J3PC,Thanks <@U03UG32J3PC>,U03UH397319,Allchannells
+243,1,2,"U03UFV7HFNF,U03U1FNPEUX","if you already have git with bash installed on your windows machine I think the easiest way to generate and use SSH key would be:
+• Generate a key locally
+ `ssh-keygen -t rsa -b 4096 -C ""&lt;email-address&gt;`
+-t type of encryption -b 4096 strength of encryption
+• list the generated key
+`ls | grep &lt;keyname&gt;`
+• copy your public key
+`cat &lt;keyname.pub&gt;`",U03UD68RQH3,Allchannells
+244,raised_hands,1,U03UHB8CXDY,"if you already have git with bash installed on your windows machine I think the easiest way to generate and use SSH key would be:
+• Generate a key locally
+ `ssh-keygen -t rsa -b 4096 -C ""&lt;email-address&gt;`
+-t type of encryption -b 4096 strength of encryption
+• list the generated key
+`ls | grep &lt;keyname&gt;`
+• copy your public key
+`cat &lt;keyname.pub&gt;`",U03UD68RQH3,Allchannells
+245,white_check_mark,2,"U03UUR571A5,U03UD68RQH3","<@U03UD68RQH3> and <@U03UUR571A5>
+I am not sure if that is how we should download them,but you can download the data by selecting drone,date and time.
+I tagged you guys because you were asking on Gmeet.",U03UFV7HFNF,Allchannells
+246,raised_hands,2,"U03UUR571A5,U03UD68RQH3","<@U03UD68RQH3> and <@U03UUR571A5>
+I am not sure if that is how we should download them,but you can download the data by selecting drone,date and time.
+I tagged you guys because you were asking on Gmeet.",U03UFV7HFNF,Allchannells
+247,raised_hands,1,U03UVHCV6KB,"I don't think there is one, rather u set it urself ",U03UJGP0C68,Allchannells
+248,raised_hands,1,U03UVHCV6KB,airflow users  create --role Admin --username admin --email admin --firstname admin --lastname admin --password admin,U03U1FNPEUX,Allchannells
+249,white_check_mark,1,U03UVHCV6KB,airflow users  create --role Admin --username admin --email admin --firstname admin --lastname admin --password admin,U03U1FNPEUX,Allchannells
+250,raised_hands,1,U03UJGP0C68,<@U03U1FNPEUX> <@U03UJGP0C68> thank you both,U03UVHCV6KB,Allchannells
+251,white_check_mark,2,"U03V6HMRPGQ,U03V8LHPDME",I am not sure how to respond to this question but I think the whole point of dockerization is so that we could run them in any environment,U03UVHCV6KB,Allchannells
+252,raised_hands,5,"U03UG4Q7V42,U03UG1Z21JP,U03UVHCV6KB,U03UJGP0C68,U03V8LHPDME","here is my summary for important terms and tools for this week, I hope you like it.
+it is short and give you point where to start building your intuition
+<https://docs.google.com/document/d/17cKpxLGtzwTpRLOr-7XvKjG1e0OpK9EDepq7C246BCg/edit?usp=sharing>",U03V6HMRPGQ,Allchannells
+253,raised_hands,1,U03V6HMRPGQ,thank you brother,U03UVHCV6KB,Allchannells
+254,eyes,1,U03UVHCV6KB,Check out this guide <https://airflow.apache.org/docs/apache-airflow-providers-postgres/stable/operators/postgres_operator_howto_guide.html>,U03UUR571A5,Allchannells
+255,white_check_mark,1,U03UVHCV6KB,Yes in the challenge intro.,U03UUR571A5,Allchannells
+256,raised_hands,1,U03UVHCV6KB,Yes in the challenge intro.,U03UUR571A5,Allchannells
+257,white_check_mark,1,U03UVHCV6KB,,U03UUR571A5,Allchannells
+258,raised_hands,1,U03UVHCV6KB,,U03UUR571A5,Allchannells
+259,eyes,1,U03UVHCV6KB,"Yeah what I have done was airflow db init, and then create user",U03UUR571A5,Allchannells
+260,eyes,1,U03UVHCV6KB,"you used standalone which runs airflow db init, airflow create, airflow webserver all at once",U03UUR571A5,Allchannells
+261,raised_hands,1,U03UVHCV6KB,I think that was why you had the password issue previously.,U03UUR571A5,Allchannells
+262,raised_hands,1,U03UUR571A5,"there goes 3hrs I will never get back, all because not reading the challenge doc
+Maybe it would even have been simpler to user Postgres to begin with
+anyways thank you <@U03UUR571A5>",U03UVHCV6KB,Allchannells
+263,white_check_mark,1,U03UUR571A5,<https://stackoverflow.com/questions/5420789/how-to-install-psycopg2-with-pip-on-python>,U03UVHCV6KB,Allchannells
+264,raised_hands,1,U03UG4Q7V42,This might help <https://stackoverflow.com/questions/68155641/should-i-run-things-inside-a-docker-container-as-non-root-for-safety>,U03UG32J3PC,Allchannells
+265,pray,2,"U03U1FNPEUX,U03UFV7HFNF","Please, could you make the tutorial video available ASAP? Thanks",U03UH397319,Allchannells
+266,white_check_mark,1,U03V8LHPDME,I have managed to fix this issue.  The issue for me was for some reason i had installed two docker versions via snap and apt. Try uninstalling docker completely and do a clean installation.,U03UG4Q7V42,Allchannells
+267,1,2,"U03UJGP0C68,U03UJH1EQQL","Steps to follow to install docker and setup airflow:
+• <https://learn.microsoft.com/en-us/windows/wsl/install|Install> wsl2 for you need it to run docker 
+• download <https://apps.microsoft.com/store/detail/ubuntu-20045-lts/9MTTCL66CPXJ|ubuntu> or other Linux distro of your choice
+• launch ubuntu and you'll get a Linux terminal where you can install anything you can follow any installation process that u use in Linux OS, it should work
+• To install dockerized  Airflow follow <https://10academybatch6.slack.com/archives/C042YEFQFBN/p1663682191700699|this> steps",U03UD68RQH3,Allchannells
+268,heart,1,U03V6HMRPGQ,"this is excellent to see, thanks <@U03V6HMRPGQ>",U03U93GNNVB,Allchannells
+269,raised_hands,1,U03UG4Q7V42,"it worked after a lot of effort,but do not what happened it just worked.",U03UFV7HFNF,Allchannells
+270,raised_hands,1,U03UVHCV6KB,"I managed to solve my issue after manually installing all the dependencies, If anybody faces the same issue follow the below links,
+Huge thanks to <@U03UG4Q7V42> and <@U03UVHCV6KB>
+<https://askubuntu.com/questions/672408/can-not-install-libpq-dev-in-ubuntu-14-04>
+<https://packages.debian.org/buster/postgresql-server-dev-all>
+<https://stackoverflow.com/questions/28253681/you-need-to-install-postgresql-server-dev-x-y-for-building-a-server-side-extensi>
+<https://stackoverflow.com/questions/17183792/install-libpq-dev-package-error>
+<https://stackoverflow.com/questions/47318227/cannot-install-psycopg2-ubuntu>
+<https://www.appsloveworld.com/postgresql/100/164/modulenotfounderror-no-module-named-pg>",U03UUR571A5,Allchannells
+271,white_check_mark,1,U03UVHCV6KB,"I managed to solve my issue after manually installing all the dependencies, If anybody faces the same issue follow the below links,
+Huge thanks to <@U03UG4Q7V42> and <@U03UVHCV6KB>
+<https://askubuntu.com/questions/672408/can-not-install-libpq-dev-in-ubuntu-14-04>
+<https://packages.debian.org/buster/postgresql-server-dev-all>
+<https://stackoverflow.com/questions/28253681/you-need-to-install-postgresql-server-dev-x-y-for-building-a-server-side-extensi>
+<https://stackoverflow.com/questions/17183792/install-libpq-dev-package-error>
+<https://stackoverflow.com/questions/47318227/cannot-install-psycopg2-ubuntu>
+<https://www.appsloveworld.com/postgresql/100/164/modulenotfounderror-no-module-named-pg>",U03UUR571A5,Allchannells
+272,eyes,1,U03UG1Z21JP,"I don't really get how our GitHub repo should be structured for this week's challenge.
+Any tips? or how should I approach this?",U03UJKJGRAQ,Allchannells
+273,heavy_check_mark,1,U03U1FNPEUX,okay let me try and  back to you,U03UG5VFN03,Allchannells
+274,wink,1,U03UD68RQH3,Thanks <@U03UD68RQH3>,U03UG0YHAUT,Allchannells
+275,pray,2,"U03UVHCV6KB,U03UG32J3PC",Please make the afternoon tutorial available as soon as possible. I was having connection issues and wasn't able to hear clearly <@U03TEPYRM2P> :pray:,U03UG4Q7V42,Allchannells
+276,raised_hands,1,U03UG4Q7V42,It will be uploaded as soon as possible. I gat you!,U03TEPYRM2P,Allchannells
+277,raised_hands,1,U03UJKJGRAQ,I'm thinking to go like this:,U03UD68RQH3,Allchannells
+278,white_check_mark,1,U03V8LHPDME,I just saw that there's a list of sample repos at the end of the doc.,U03V785NLSU,Allchannells
+279,broken_heart,1,U03V6HMRPGQ,"I am really sorry I could not help <@U03V6HMRPGQ>, today was really a bad day for me. But I see you have found what you was looking for.",U03UVHCV6KB,Allchannells
+280,white_check_mark,1,U03V6HMRPGQ,"yes, Ubuntu offer a desktop so that it's quite easy if you come from wndows",U03UH397319,Allchannells
+281,white_check_mark,1,U03V6HMRPGQ,"And if you have a low performance computer there is an OS called Parrot OS Home, It is really lite and I have used it for over 3 years. And have an equivalent or more performance than the other distros",U03UUR571A5,Allchannells
+282,raised_hands,1,U03UJKJGRAQ,<@U03UJKJGRAQ> yeah instead of changing your OS... it's a smooth transition... but not as performant,U03UD68RQH3,Allchannells
+283,white_check_mark,2,"U03UD68RQH3,U03UJKJGRAQ","If you need an ubuntu urgently I suggest you try WSL, the programs we are using are CPU intensive and choosing from virtual or WSL, WSL works better.",U03UUR571A5,Allchannells
+284,raised_hands,1,U03UUR571A5,Ok .. thank you <@U03UUR571A5>,U03UJKJGRAQ,Allchannells
+285,smiling_face_with_tear,1,U03UJGRN5E0,"Every time I run airflow command my laptop read it like :
+`Docker-compose` `kill` `me` ",U03V6HMRPGQ,Allchannells
+286,joy,4,"U03V61VGQG0,U03UG4Q7V42,U03UD68RQH3,U03UJGP0C68","Every time I run airflow command my laptop read it like :
+`Docker-compose` `kill` `me` ",U03V6HMRPGQ,Allchannells
+287,1,1,U03V6HMRPGQ,lol check if there are other containers that are running. I do `d*ocker container kill $(docker ps -q)*` before i run a new one. It kills all the containers that are up in the background.,U03UG4Q7V42,Allchannells
+288,raised_hands,2,"U03UVHCV6KB,U03UG4Q7V42",I asked for help from my fellow meow developer :joy:it is using tunaflow insted of air and it working well:joy:,U03V6HMRPGQ,Allchannells
+289,joy,6,"U03UD5B7C3X,U03UD68RQH3,U03UUR571A5,U03U1FNPEUX,U03V61VGQG0,U03UJN29Y4C",I asked for help from my fellow meow developer :joy:it is using tunaflow insted of air and it working well:joy:,U03V6HMRPGQ,Allchannells
+290,white_check_mark,1,U03U1HAG9TR,<https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh>,U03UD68RQH3,Allchannells
+291,raised_hands,1,U03UD68RQH3,I uninstalled the docker desktop app and installed it using brew after installing Posgresql. Now everything is working after 2 days of  sleepless night,U03UG1Z21JP,Allchannells
+292,white_check_mark,1,U03UG1Z21JP,Dont know much about mac but maybe this could help. <https://timeflow.academy/dbt/labs/configuring-dbt-profiles>,U03U9DB7REG,Allchannells
+293,heart,1,U03V6HMRPGQ,"<@U03V6HMRPGQ> u use  ssh for operating network services securely over an unsecured network. it's like  your credential for logging into your remote machine to do command-line execution. so 10Academy uses your ssh public key to give you access to aws ec2 instance... and you use your ssh private key to access it. since the instance (i.e. your powerful remote machine) knows your public key, you can connect to it using ur private key (pub + priv = conn :handshake:)",U03UD68RQH3,Allchannells
+294,raised_hands,7,"U03UFV7HFNF,U03UD68RQH3,U03UJKJGRAQ,U03UG1Z21JP,U03U1FNPEUX,U03UJN29Y4C,U03UG5VFN03","Eureka! Finally after a lot of tries I managed to get airflow work with dbt <@U03UD68RQH3> The trick is to add custom dependencies to your docker image
+1. comment the `image` from docker-compose.yml
+2. uncomment `build .`
+3. add a `Dockerfile`  in the same directory as your docker-compose.yml file
+    a. contents of Dockerfile should look like this
+```FROM apache/airflow:2.2.0
+COPY requirements.txt .
+RUN pip install -r requirements.txt```
+4. add a requirement.txt that should contain `dbt==0.15`  I am not sure why other versions don't work, so use 0.15
+5. place `profiles.yml`  in the dbt folder, also remove  `('seed-paths', 'model-paths', 'config-version')` tags from dbt-project.yml
+6. use bash operator to run dbt commands
+N.B. you shall use it as follows `dbt run --project-dir {DBT_PROJECT_DIR} --profiles-dir ../`
+where `DBT_PROJECT_DIR` is your dbt directory in relative to the docker airflow container
+mine was `DBT_PROJECT_DIR = ""../../opt/dbt/&lt;dbt project name&gt;""` 
+
+hope it will work for you guys",U03UJGP0C68,Allchannells
+295,raised_hands,1,U03UD68RQH3,"<@U03UD68RQH3> I just changed the host to `postgres`  password, username and db to `airflow` and voila it's working
+thanks for pointing that out",U03UJGP0C68,Allchannells
+296,eyes,3,"U03UVHCV6KB,U03UG4Q7V42,U03UG32J3PC","there is a platform called railway.
+<https://railway.app/>",U03UUR571A5,Allchannells
+297,white_check_mark,1,U03UVHCV6KB,Yes there might be limits to it but its freee,U03UUR571A5,Allchannells
+298,white_check_mark,1,U03UUR571A5,Thank you <@U03UUR571A5> i will give it a go,U03UG4Q7V42,Allchannells
+299,raised_hands,1,U03UG32J3PC,okay thank you so much <@U03UG32J3PC>,U03V6HMRPGQ,Allchannells
+300,raised_hands,15,"U03UG32J3PC,U03V61VGQG0,U03UG0YHAUT,U03UJGRN5E0,U03UJGP0C68,U03UFV7HFNF,U03U9EJR362,U03U1FNPEUX,U03UD4FEDHB,U03UJN29Y4C,U03UG5VFN03,U03UAKATQ22,U03UHB8CXDY,U03UVHCV6KB,U03U1J51VFZ","Welcome to week6 everyone. By Friday, we’ll be half way! Let’s approach the week with full energy :battery::battery:",U03TEPYRM2P,Allchannells
+301,1,1,U03UUMR26Q1,"Welcome to week6 everyone. By Friday, we’ll be half way! Let’s approach the week with full energy :battery::battery:",U03TEPYRM2P,Allchannells
+302,raised_hands::skin-tone-4,1,U03UG4Q7V42,"Welcome to week6 everyone. By Friday, we’ll be half way! Let’s approach the week with full energy :battery::battery:",U03TEPYRM2P,Allchannells
+303,eyes,1,U03UVHCV6KB,"Follow this guide get you started on the environment set up.
+<https://developer.algorand.org/docs/get-started/devenv/>
+<https://github.com/algorand/sandbox>",U03U9DB7REG,Allchannells
+304,raised_hands,6,"U03U9EJR362,U03UG5VFN03,U03UFV7HFNF,U03UG0YHAUT,U03UH397319,U03UHB8CXDY","Follow this guide get you started on the environment set up.
+<https://developer.algorand.org/docs/get-started/devenv/>
+<https://github.com/algorand/sandbox>",U03U9DB7REG,Allchannells
+305,raised_hands::skin-tone-4,1,U03UG4Q7V42,"Follow this guide get you started on the environment set up.
+<https://developer.algorand.org/docs/get-started/devenv/>
+<https://github.com/algorand/sandbox>",U03U9DB7REG,Allchannells
+306,raised_hands,3,"U03UG5VFN03,U03UG0YHAUT,U03UH397319","When you are done with the setup. You can get familiarized with Algorand by making your first transaction.
+
+If you prefer JavaScript follow this guide: <https://developer.algorand.org/docs/sdks/javascript/>
+If you prefer Python follow this guide: <https://developer.algorand.org/docs/sdks/python/>",U03U9DB7REG,Allchannells
+307,raised_hands::skin-tone-4,1,U03UG4Q7V42,I had the same problem and `./sandbox dev up` worked for me,U03UVHCV6KB,Allchannells
+308,1,2,"U03U9DB7REG,U03UJN29Y4C",<@U03U9DB7REG> i think it worked. This is what i got when i ran ./sandbox test,U03UG4Q7V42,Allchannells
+309,white_check_mark,1,U03UVHCV6KB,"Yes, you need to also provide the token and address parameter when initializing it.",U03UKL27B0R,Allchannells
+310,white_check_mark,1,U03UVHCV6KB,"If you have successfully started the sandbox, the network will be setup. You just need to connect to it.",U03UKL27B0R,Allchannells
+311,1,1,U03UD68RQH3,thanks <@U03UD68RQH3>,U03UJH1EQQL,Allchannells
+312,white_check_mark,2,"U03UUR571A5,U03UVHCV6KB","I used
+```sudo rm /usr/local/bin/docker-compose```
+ It seems to be working now.
+
+Thanks <@U03U9DB7REG> , <@U03UVHCV6KB> and <@U03UUR571A5>",U03V61VGQG0,Allchannells
+313,eyes,1,U03UVHCV6KB,Try to create a wallet and it will give you a menmonic key. From that key get the public and private address and try to go over the previous steps.,U03UKL27B0R,Allchannells
+314,white_check_mark,1,U03UG1Z21JP,Follow this guide for the set up,U03UJN29Y4C,Allchannells
+315,1,1,U03UKL27B0R,I think it's working now,U03UH397319,Allchannells
+316,eyes,1,U03U9DB7REG,The end of the session? I've started sleeping,U03UH397319,Allchannells
+317,raised_hands,1,U03UG5VFN03,I am soo late but I have fully switched to linux ubuntu,U03V6HMRPGQ,Allchannells
+318,1,1,U03U9DB7REG,I am soo late but I have fully switched to linux ubuntu,U03V6HMRPGQ,Allchannells
+319,heart,1,U03V6HMRPGQ,by using this guide and installing sandbox I guess,U03UVHCV6KB,Allchannells
+320,heart,1,U03V6HMRPGQ,<https://10academybatch6.slack.com/archives/C044HA7UXS4/p1664191096963859>,U03V785NLSU,Allchannells
+321,100,1,U03U9DB7REG,and in dev you will find accounts with pre funded algos. you can work on them,U03V61VGQG0,Allchannells
+322,white_check_mark,1,U03UVHCV6KB,"`algod_address = ""<http://localhost:4001>""`
+    `algod_token = ""aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa""`
+these are the arguments right? <@U03UVHCV6KB>",U03UFV7HFNF,Allchannells
+323,raised_hands,4,"U03UUR571A5,U03UFV7HFNF,U03V61VGQG0,U03UJGP0C68","Submodule is the git feature allowing a repository to include another repository, with control on the branch of shared repository that is considered by the host repository. In order to, for your own application, to create a submodule associating the shared repository's main branch, do the following:
+```git submodule add -b main [URL to Git repo] 
+git submodule init```
+# Now you can do
+```git add .
+git commit -m ""folder is now a reusable result""
+git push```",U03UD68RQH3,Allchannells
+324,raised_hands::skin-tone-4,1,U03UG4Q7V42,"Submodule is the git feature allowing a repository to include another repository, with control on the branch of shared repository that is considered by the host repository. In order to, for your own application, to create a submodule associating the shared repository's main branch, do the following:
+```git submodule add -b main [URL to Git repo] 
+git submodule init```
+# Now you can do
+```git add .
+git commit -m ""folder is now a reusable result""
+git push```",U03UD68RQH3,Allchannells
+325,1,1,U03UKL27B0R,Ok thanks <@U03UKL27B0R> ,U03V61VGQG0,Allchannells
+326,1,1,U03UKL27B0R,"it seems that is working now, let it finish and I will keep you with the update",U03V6HMRPGQ,Allchannells
+327,white_check_mark,1,U03V6HMRPGQ,"It's best to use the purestake api at this point, We have covered it on yesterday's session.",U03UKL27B0R,Allchannells
+328,white_check_mark,1,U03UVHCV6KB,"After creating NFT(the asset), I could draw the Asset ID and Asset Txn but is that all...so at this point the unique certificate is generated right? What could be the next step? How could the trainee optin? Any idea?",U03UJGP0C68,Allchannells
+329,white_check_mark,1,U03UUR571A5,"alright, thanks <@U03UUR571A5>",U03UJGP0C68,Allchannells
+330,raised_hands,1,U03UVHCV6KB,"I want to know what is the best way to set up things so that I don't need to enter a Personal Access Token every time I do `git push`.
+I don't remember how I did it on win OS. The link provided confused me:
+<https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls>",U03UJKJGRAQ,Allchannells
+331,heavy_check_mark,2,"U03UJKJGRAQ,U03UD68RQH3",<https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh>,U03UKL27B0R,Allchannells
+332,raised_hands,1,U03UVHCV6KB,<@U03UKL27B0R> I ended up using Git Credential Manager as described in <https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git>,U03UJKJGRAQ,Allchannells
+333,white_check_mark,3,"U03UG1Z21JP,U03UG4Q7V42,U03UD68RQH3","<!channel>
+This is a really good thread, better to take a look at all the messages written in this thread!
+<https://10academybatch6.slack.com/archives/C044HA7UXS4/p1664433752381399>",U03UVHCV6KB,Allchannells
+334,white_check_mark,1,U03U1FNPEUX,To add to what <@U03U1FNPEUX> said you can also use the dev net by running the `./sandbox up dev -v`  command or you can use the test net by running the `./sandbox up test -v`  command. and also remember to use the `-v`  argument in order to get a more descriptive log output to your terminal.,U03UVHCV6KB,Allchannells
+335,heart,1,U03V6HMRPGQ,"Now try that using the wallet, and AlgoSigner",U03UUR571A5,Allchannells
+336,white_check_mark,1,U03V6HMRPGQ,the wallet part was explained in yesterday's tutorial.,U03UVHCV6KB,Allchannells
+337,heart,1,U03V6HMRPGQ,"but here is a very good material, you can find everything you need to know here",U03UVHCV6KB,Allchannells
+338,white_check_mark,1,U03UVHCV6KB,I will do thank you :pray: ,U03V6HMRPGQ,Allchannells
+339,face_palm,3,"U03UD68RQH3,U03U1FNPEUX,U03UG0YHAUT",when ever I do `./sandbox up testnet` my laptop goes:,U03UD68RQH3,Allchannells
+340,face_palm::skin-tone-4,1,U03UG4Q7V42,when ever I do `./sandbox up testnet` my laptop goes:,U03UD68RQH3,Allchannells
+341,white_check_mark,1,U03UG4Q7V42,yeah just now,U03UFV7HFNF,Allchannells
+342,raised_hands,1,U03UD68RQH3,"of course, my pc has its peace once I started using purestake",U03UJGP0C68,Allchannells
+343,1,1,U03UJGP0C68,No it is not required to use smart contracts but it would be great if you could have smart contract implementation. Try to use a distributed system if you want to go for DB instead of using a non-distributed system which could be a single-point of failure and you should be able to show how secure it is because NFT management needs to be very secure. Think of other ways that you can share the asset-id to the respective trainee that can be secure and wouldn't use much of web2 tech.,U03UKL27B0R,Allchannells
+344,raised_hands,1,U03TT5KEYCF,<!channel> join us for the last standup of the week and the month. <https://meet.google.com/ysb-kjdn-hpp>,U03TEPYRM2P,Allchannells
+345,white_check_mark,1,U03UVHCV6KB,You can just deploy your front-end &amp; back-end part on netlify or heroku and submit that link.,U03U9DB7REG,Allchannells
+346,white_check_mark,1,U03UVHCV6KB,"update: solved
+
+ok. so for this particular error, the issue is that i was using the wrong purestake address. it should have been ""<https://testnet-algorand.api.purestake.io/ps2>"" with ps2 instead of ps1 at the end. (line 38 :face_with_head_bandage:)",U03UD5B7C3X,Allchannells
+347,raised_hands,1,U03UVHCV6KB,"update: solved
+
+ok. so for this particular error, the issue is that i was using the wrong purestake address. it should have been ""<https://testnet-algorand.api.purestake.io/ps2>"" with ps2 instead of ps1 at the end. (line 38 :face_with_head_bandage:)",U03UD5B7C3X,Allchannells
+348,white_check_mark,3,"U03UUR571A5,U03U9EJR362,U03U1HAG9TR",Good morning everyone. Welcome to week 7 of 10 Academy Batch 6 Intensive Training.,U03TEPYRM2P,Allchannells
+349,raised_hands,1,U03UG5VFN03,Good morning everyone. Welcome to week 7 of 10 Academy Batch 6 Intensive Training.,U03TEPYRM2P,Allchannells
+350,joy,6,"U03UJGP0C68,U03UG32J3PC,U03V785NLSU,U03UH397319,U03UFV7HFNF,U03UG4Q7V42",<@U03U93GNNVB> I believe that 10 Academy ow us 4 jokes for saying (students ) 4 times :joy:,U03V6HMRPGQ,Allchannells
+351,sob,1,U03TT5KEYCF,<@U03U93GNNVB> I believe that 10 Academy ow us 4 jokes for saying (students ) 4 times :joy:,U03V6HMRPGQ,Allchannells
+352,joy,1,U03V6HMRPGQ,"it's fixed, but we still have to pay",U03U93GNNVB,Allchannells
+353,white_check_mark,1,U03V6HMRPGQ,point it out so that we can fix it,U03U93GNNVB,Allchannells
+354,white_check_mark,1,U03V6HMRPGQ,4 instances already fixed,U03U93GNNVB,Allchannells
+355,pray,3,"U03U1HAG9TR,U03UJKJGRAQ,U03UG32J3PC",<https://forms.gle/ggTVsHfanfKTYJYa7>,U03UJGP0C68,Allchannells
+356,1,1,U03U9DB7REG,<@U03U9DB7REG> I also resubmitted with a new public key because I changed OS since the last one.,U03UJKJGRAQ,Allchannells
+357,1,1,U03U9DB7REG,<@U03U9DB7REG> I did the same too,U03U1FNPEUX,Allchannells
+358,raised_hands,7,"U03UFV7HFNF,U03UJGP0C68,U03V6HMRPGQ,U03UG1Z21JP,U03UVHCV6KB,U03UJN29Y4C,U03V61VGQG0","10 Academy Team
+4:34 PM
+
+<@U03UG5VFN03> So the final product is going to be a web page that presents some sentence to users and your page should allow users to record/upload audio format of the sentence(you might deploy it if you want). And your application should communicate with your kafka cluster. Then apply spark to transform and load your audio data from the kafka cluster.
+
+From: G-meet chat 10 Academy Team response to Genet's question
+it might help you to get the larger picture of this week's project",U03UD68RQH3,Allchannells
+359,raised_hands::skin-tone-3,1,U03U9EJR362,"10 Academy Team
+4:34 PM
+
+<@U03UG5VFN03> So the final product is going to be a web page that presents some sentence to users and your page should allow users to record/upload audio format of the sentence(you might deploy it if you want). And your application should communicate with your kafka cluster. Then apply spark to transform and load your audio data from the kafka cluster.
+
+From: G-meet chat 10 Academy Team response to Genet's question
+it might help you to get the larger picture of this week's project",U03UD68RQH3,Allchannells
+360,1,1,U03V785NLSU,I think so...I'm having the same error here,U03UJGP0C68,Allchannells
+361,white_check_mark,1,U03UVHCV6KB,is nano a text editor ?,U03V6HMRPGQ,Allchannells
+362,white_check_mark,1,U03V6HMRPGQ,"yes, I think nano is a text editor. just like gedit.",U03UJKJGRAQ,Allchannells
+363,white_check_mark,1,U03UG1Z21JP,It's the same I think. If the folder was created in the home dir.,U03U1FNPEUX,Allchannells
+364,raised_hands,1,U03UJGP0C68,got it,U03UG1Z21JP,Allchannells
+365,white_check_mark,3,"U03U1HAG9TR,U03V5Q9N516,U03UD4FEDHB",I am restarting the all aws machines,U03UUN8M4RX,Allchannells
+366,raised_hands,1,U03UG5VFN03,I am restarting the all aws machines,U03UUN8M4RX,Allchannells
+367,white_check_mark,8,"U03UUR571A5,U03U1HAG9TR,U03UG1Z21JP,U03U9EJR362,U03V5Q9N516,U03UD4FEDHB,U03UVHCV6KB,U03UH397319",USE THIS THREAD to report if you are unable to login or something not working (after about 5-10mins),U03UUN8M4RX,Allchannells
+368,white_check_mark,3,"U03UUR571A5,U03UG32J3PC,U03U1FNPEUX",delete the known_hosts file,U03UJGP0C68,Allchannells
+369,raised_hands,1,U03UJGP0C68,Yeah its working now.:+1:,U03UUR571A5,Allchannells
+370,raised_hands,1,U03UJGP0C68,Thanks <@U03UJGP0C68>,U03UG32J3PC,Allchannells
+371,raised_hands,2,"U03UD68RQH3,U03V785NLSU","<@U03UKL27B0R>, many of us in group 5, have lost the private key because we were updating/changing the os. is it possible to reconfigure the instances given for us. because we are getting permission denied error while trying to connect with the new private key.",U03UJGRN5E0,Allchannells
+372,white_check_mark,2,"U03UVHCV6KB,U03UH397319",Sure we can discuss about it on the standup in few minutes.,U03U9DB7REG,Allchannells
+373,pray,1,U03UJN29Y4C,Then copy and modify the code that's been provided ,U03U1FNPEUX,Allchannells
+374,raised_hands,1,U03UVHCV6KB,<@U03UD68RQH3> if you have changed the permission of the .ssh folder and your config file this should work. But if its not working then it might mean that your public key is not updated. Will check and get back to you.,U03U9DB7REG,Allchannells
+375,white_check_mark,1,U03UVHCV6KB,"Alright, let me get back to you on that.",U03U9DB7REG,Allchannells
+376,heavy_check_mark,1,U03U9DB7REG,"If there is no issue with the one you're using now, then no need to generate a new one.. That error means they did not grant permission",U03UH397319,Allchannells
+377,white_check_mark,1,U03UG32J3PC,just to start the docker service,U03UUR571A5,Allchannells
+378,white_check_mark,1,U03UVHCV6KB,Okay. Let me check from our side.,U03U9DB7REG,Allchannells
+379,pray,1,U03UH397319,sure!,U03TEPYRM2P,Allchannells
+380,eyes,1,U03UVHCV6KB,change write permission to the logs folder mayb,U03U1FNPEUX,Allchannells
+381,eyes,1,U03UVHCV6KB,"the process doesnt have a write right to the logs folder, according to the error",U03U1FNPEUX,Allchannells
+382,pray,2,"U03U1FNPEUX,U03UVHCV6KB","```version: '3'
+
+services:
+
+  zookeeper:
+    image: confluentinc/cp-zookeeper:latest
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+
+  broker:
+    image: confluentinc/cp-kafka:latest
+    depends_on:
+      - zookeeper
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: <PLAINTEXT://broker:9092>
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1```",U03UUR571A5,Allchannells
+383,raised_hands,1,U03UVHCV6KB,"```version: '3'
+
+services:
+
+  zookeeper:
+    image: confluentinc/cp-zookeeper:latest
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+
+  broker:
+    image: confluentinc/cp-kafka:latest
+    depends_on:
+      - zookeeper
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: <PLAINTEXT://broker:9092>
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1```",U03UUR571A5,Allchannells
+384,white_check_mark,1,U03UVHCV6KB,You can use this,U03UUR571A5,Allchannells
+385,raised_hands::skin-tone-4,1,U03UG4Q7V42,Ohh okay thanks <@U03UG4Q7V42> and <@U03UVHCV6KB>,U03U1FNPEUX,Allchannells
+386,raised_hands,1,U03UVHCV6KB,Ohh okay thanks <@U03UG4Q7V42> and <@U03UVHCV6KB>,U03U1FNPEUX,Allchannells
+387,1,3,"U03U1HAG9TR,U03U1FNPEUX,U03UG1Z21JP",A tutor has been assigned to each group. We will have a meeting with each group later and resolve the issue.,U03UKL27B0R,Allchannells
+388,raised_hands,3,"U03UVHCV6KB,U03V6HMRPGQ,U03V61VGQG0",":speaker::speaker::speaker::speaker:
+*QUICK NOTICE* 
+<!channel>
+Today’s second technical tutorial has been postponed by an hour. Therefore, the class will duly commence at 2pm UTC. 
+
+We are sorry for the short notice. See you at 2pm. ",U03TEPYRM2P,Allchannells
+389,raised_hands,4,"U03UFV7HFNF,U03UD5B7C3X,U03UVHCV6KB,U03U1FNPEUX","If people are struggling, we can have a call to solve your issues",U03UUN8M4RX,Allchannells
+390,raised_hands::skin-tone-3,1,U03U9EJR362,"If people are struggling, we can have a call to solve your issues",U03UUN8M4RX,Allchannells
+391,raised_hands,1,U03UJKJGRAQ,"Thank you, that works",U03UJN29Y4C,Allchannells
+392,raised_hands,1,U03UVHCV6KB,Use the same username and $n as pass,U03U1FNPEUX,Allchannells
+393,eyes,1,U03UG1Z21JP,"Are we going to have to install everything starting from programing environments to airflow, kafka, dbs . . . on the AWS instances?",U03UVHCV6KB,Allchannells
+394,grin,2,"U03UJGP0C68,U03UD68RQH3",`cd` and `ls -lra`iare going to be your friend brother,U03UVHCV6KB,Allchannells
+395,white_check_mark,1,U03UVHCV6KB,<@U03UVHCV6KB> Location of the notebooks,U03UUR571A5,Allchannells
+396,1,1,U03UUR571A5,thanks <@U03UUR571A5>,U03UD68RQH3,Allchannells
+397,eyes,1,U03UD68RQH3,nope i think you can connect to a jupyter server from vscode,U03UJGP0C68,Allchannells
+398,white_check_mark,2,"U03UJGP0C68,U03UD68RQH3",I think after installing the python extension it would work?,U03UUR571A5,Allchannells
+399,rolling_on_the_floor_laughing,3,"U03UJGP0C68,U03UVHCV6KB,U03UD68RQH3","<@U03UJGP0C68> I am having DataScience error :grin::joy::rolling_on_the_floor_laughing:
+`DataScience Error [Error: Failed to install the Python Extension.`",U03UUR571A5,Allchannells
+400,rolling_on_the_floor_laughing,2,"U03UUR571A5,U03UJN29Y4C",i'm going to shutdown :exploding_head:....there is a sleep outage,U03UJGP0C68,Allchannells
+401,1,2,"U03UJGP0C68,U03UVHCV6KB",let me know If u figure it out.... now it is 6%,U03UD68RQH3,Allchannells
+402,1,1,U03UD68RQH3,<@U03UUR571A5> <@U03UD68RQH3> I chose install kernel and it's now working for me,U03UJGP0C68,Allchannells
+403,rolling_on_the_floor_laughing,1,U03UJGP0C68,my vscode tozalech man.,U03UUR571A5,Allchannells
+404,joy,2,"U03UJGP0C68,U03UD68RQH3",my vscode tozalech man.,U03UUR571A5,Allchannells
+405,white_check_mark,1,U03UVHCV6KB,Anyone successfully created topics on kafka?,U03V785NLSU,Allchannells
+406,white_check_mark,1,U03UVHCV6KB,you will provide a text for the user and the user should record his voice reading the text in the Amharic language.,U03V6HMRPGQ,Allchannells
+407,1,5,"U03UG1Z21JP,U03U1HAG9TR,U03V785NLSU,U03U1FNPEUX,U03V61VGQG0",I have increased all instances memory,U03UUN8M4RX,Allchannells
+408,+1::skin-tone-3,1,U03U9EJR362,I have increased all instances memory,U03UUN8M4RX,Allchannells
+409,white_check_mark,6,"U03UJN29Y4C,U03V61VGQG0,U03UJGP0C68,U03UG0YHAUT,U03UH397319,U03UVHCV6KB","<!channel> the msk (kafka cluster) is ready
+Two brokers are available and your bootstrap servers are
+`<http://b-1.batch6w7.6qsgnf.c19.kafka.us-east-1.amazonaws.com:9092,b-2.batch6w7.6qsgnf.c19.kafka.us-east-1.amazonaws.com:9092|b-1.batch6w7.6qsgnf.c19.kafka.us-east-1.amazonaws.com:9092,b-2.batch6w7.6qsgnf.c19.kafka.us-east-1.amazonaws.com:9092>`
+
+You can create a connection to this cluster within your allocated EC2 instance. When you create a topic *make sure to append your group name to that topic* so different groups' works don't collide.
+
+Example topic:
+      g1-topicName
+
+Use this thread if you're facing any issues connecting with the cluster.",U03V8LHPDME,Allchannells
+410,raised_hands,1,U03UVHCV6KB,There are others who have already installed so you go ahead and install.,U03U9DB7REG,Allchannells
+411,white_check_mark,1,U03U1HAG9TR,"Group 3 jupyter hub is now working, it should work for everyone",U03UUN8M4RX,Allchannells
+412,raised_hands,1,U03UVHCV6KB,Same here for g2,U03UUR571A5,Allchannells
+413,white_check_mark,1,U03UVHCV6KB,no it worked I was writing the command wrong,U03V6HMRPGQ,Allchannells
+414,white_check_mark,1,U03UVHCV6KB,Thank you <@U03UVHCV6KB>,U03V6HMRPGQ,Allchannells
+415,white_check_mark,7,"U03UVHCV6KB,U03UFV7HFNF,U03UUR571A5,U03V61VGQG0,U03U9EJR362,U03V6HMRPGQ,U03UH397319",*All group machines should now be working as expected including Jupyterhub. Let me know if it is not*,U03UUN8M4RX,Allchannells
+416,white_check_mark,4,"U03UVHCV6KB,U03UUR571A5,U03UJN29Y4C,U03UG4Q7V42","**** Those who have root access, please don’t reboot machines for any reason. Let me know if you require rebooting *****",U03UUN8M4RX,Allchannells
+417,white_check_mark,1,U03UVHCV6KB,"and I think u missed 'b'
+```<http://b-1.batch6w7.6qsgnf.c19.kafka.us-east-1.amazonaws.com:9092|b-1.batch6w7.6qsgnf.c19.kafka.us-east-1.amazonaws.com:9092>
+not
+<http://1.batch6w7.6qsgnf.c19.kafka.us-east-1.amazonaws.com:9092|1.batch6w7.6qsgnf.c19.kafka.us-east-1.amazonaws.com:9092>```",U03UUR571A5,Allchannells
+418,white_check_mark,1,U03UUR571A5,thank you :pray: it is working now,U03UJGRN5E0,Allchannells
+419,rolling_on_the_floor_laughing,1,U03UUR571A5,I should buy eye-glass for it :joy:,U03UJGRN5E0,Allchannells
+420,raised_hands,2,"U03UG32J3PC,U03UJKJGRAQ",You can create the environment in the home directory where all members can access it,U03UUR571A5,Allchannells
+421,white_check_mark,1,U03UVHCV6KB,Yes it can be the type of environment we create for our python modules when starting a new project,U03UUR571A5,Allchannells
+422,1,7,"U03UG1Z21JP,U03UD5B7C3X,U03U1HAG9TR,U03UUR571A5,U03UH397319,U03UVHCV6KB,U03UJH1EQQL",The spark connection notebook used in today's tutorial by Natanan has been added to the week's folder. You can access it using this link: <https://drive.google.com/file/d/17vXp80po5d0TtDhQeVdPyB7XEgh3ptGv/view?usp=sharing>,U03UP7V9Q57,Allchannells
+423,raised_hands,1,U03UUR571A5,Thanks <@U03UUR571A5> for solving this,U03UVHCV6KB,Allchannells
+424,white_check_mark,1,U03U1FNPEUX,thank you <@U03U1FNPEUX>,U03UG1Z21JP,Allchannells
+425,raised_hands,1,U03UUR571A5,Changing the kernel has worked for me. Mine was caused by python version mismatch between the spark and the jupyter environment.,U03V61VGQG0,Allchannells
+426,white_check_mark,1,U03UVHCV6KB,"You have to install kafka in the airflow container
+Either by adding it as additional requirement
+`_PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:- kafka-python}`
+Or
+docker exec to airflow container and install it manually",U03UUR571A5,Allchannells
+427,raised_hands,1,U03UUR571A5,<@U03UUR571A5> thanks,U03UH397319,Allchannells
+428,raised_hands,10,"U03UL5LSTG9,U03V785NLSU,U03UUR571A5,U03V61VGQG0,U03UVHCV6KB,U03UAKATQ22,U03U1HAG9TR,U03U1FNPEUX,U03UD68RQH3,U03U1J51VFZ",Good morning everyone :blush: welcome to week 8 of 12.  Wishing you all a productive week ahead ,U03TEPYRM2P,Allchannells
+429,clap,1,U03UUMR26Q1,Good morning everyone :blush: welcome to week 8 of 12.  Wishing you all a productive week ahead ,U03TEPYRM2P,Allchannells
+430,raised_hands::skin-tone-3,1,U03U9EJR362,Good morning everyone :blush: welcome to week 8 of 12.  Wishing you all a productive week ahead ,U03TEPYRM2P,Allchannells
+431,flushed,6,"U03U1FNPEUX,U03UJKJGRAQ,U03U1HAG9TR,U03UFV7HFNF,U03UJN29Y4C,U03UH397319","hi, i just want to confirm that the submission dates on this week's challenge document are correct?
+• interim submission - *tuesday* 11th oct at 8pm utc (vs wednesday)
+• final submission - *thursday* 13th oct at 8pm utc (vs saturday)",U03UD5B7C3X,Allchannells
+432,eyes,2,"U03UG1Z21JP,U03UJKJGRAQ","hi, i just want to confirm that the submission dates on this week's challenge document are correct?
+• interim submission - *tuesday* 11th oct at 8pm utc (vs wednesday)
+• final submission - *thursday* 13th oct at 8pm utc (vs saturday)",U03UD5B7C3X,Allchannells
+433,smile,4,"U03UUR571A5,U03U9EJR362,U03UD68RQH3,U03V6HMRPGQ","<@U03UUN8M4RX> In answering my question you said ""if you transported yourself to the past..""
+if I did transport myself to the past, I would told everyone how I invented time-travel and all the markets would have crashed. :smile:",U03UJKJGRAQ,Allchannells
+434,joy,1,U03UD68RQH3,that's true <@U03UD68RQH3> I will keep  that in mind when I time-travel next time :laughing:,U03UJKJGRAQ,Allchannells
+435,1,2,"U03UJKJGRAQ,U03U1HAG9TR",,U03UVHCV6KB,Allchannells
+436,white_check_mark,1,U03UD68RQH3,If so the difference lies in what your asked as credintials. the first one requires you to provide your ssh public key. And the latter uses your (github) username and PW,U03U1FNPEUX,Allchannells
+437,white_check_mark,1,U03V8LHPDME,```pip install matplotlib==3.2.2```,U03UUR571A5,Allchannells
+438,white_check_mark,1,U03U1FNPEUX,<@U03U1FNPEUX> Thank you,U03UJN29Y4C,Allchannells
+439,white_check_mark,1,U03V6HMRPGQ,I think it is associated with the success of the trading!,U03V5Q9N516,Allchannells
+440,white_check_mark,3,"U03UD68RQH3,U03UVHCV6KB,U03V6HMRPGQ",it is something that has monetary value and which can be traded on the market.,U03UG4Q7V42,Allchannells
+441,white_check_mark,2,"U03V6HMRPGQ,U03UG4Q7V42","don't confuse it with it's literal meaning, <@U03UG4Q7V42> defined it well... it could be gold, Real states, stocks etc..",U03UD68RQH3,Allchannells
+442,white_check_mark,1,U03UD68RQH3,so it is a financial term referring to a commodity ?,U03V6HMRPGQ,Allchannells
+443,white_check_mark,2,"U03V6HMRPGQ,U03UG4Q7V42","You can find more about it here.
+<https://www.investopedia.com/terms/s/security.asp>",U03UVHCV6KB,Allchannells
+444,raised_hands,1,U03V6HMRPGQ,<@U03V6HMRPGQ> yeah,U03UD68RQH3,Allchannells
+445,white_check_mark,1,U03UVHCV6KB,Thank you all for the answers,U03V6HMRPGQ,Allchannells
+446,1,3,"U03UG1Z21JP,U03U1HAG9TR,U03U1FNPEUX","Hey <!channel> your RDS postgres databases are ready and you can access them from your EC2 instances
+
+You can connect using
+`psql --host <http://melachallengedatabase.crlafpfc5g5y.us-east-1.rds.amazonaws.com|melachallengedatabase.crlafpfc5g5y.us-east-1.rds.amazonaws.com> --port 5432 --username groupNameuser --password --dbname groupNamedb`
+
+substitute groupName with all lowercase versions of your group name
+
+example connection:
+`psql --host <http://melachallengedatabase.crlafpfc5g5y.us-east-1.rds.amazonaws.com|melachallengedatabase.crlafpfc5g5y.us-east-1.rds.amazonaws.com> --port 5432 --username changuser --password --dbname changdb`
+
+Password for all groups is _groupNamepass_ example - _changpass_
+
+Exceptions to this are group 4. group 4 will use yvonne (first name) as the group name instead of Choquet-Bruhat
+
+Use this thread if you're facing problems connecting",U03V8LHPDME,Allchannells
+447,1,5,"U03UG1Z21JP,U03UD5B7C3X,U03UD68RQH3,U03UHB8CXDY,U03V785NLSU",,U03UUN8M4RX,Allchannells
+448,+1::skin-tone-3,1,U03U9EJR362,,U03UUN8M4RX,Allchannells
+449,1,6,"U03UG1Z21JP,U03UD5B7C3X,U03UD68RQH3,U03UHB8CXDY,U03V785NLSU,U03UG0SFHGT",,U03UUN8M4RX,Allchannells
+450,+1::skin-tone-3,1,U03U9EJR362,,U03UUN8M4RX,Allchannells
+451,white_check_mark,2,"U03UUN8M4RX,U03UH397319",,U03UVHCV6KB,Allchannells
+452,raised_hands,2,"U03UJKJGRAQ,U03UG0YHAUT",,U03UUN8M4RX,Allchannells
+453,smile,1,U03UVHCV6KB,didn’t see this when I posted the same thing below :wink:,U03UUN8M4RX,Allchannells
+454,white_check_mark,1,U03UVHCV6KB,:pray: <@U03UVHCV6KB>,U03UG0YHAUT,Allchannells
+455,white_check_mark,4,"U03UVHCV6KB,U03UG0YHAUT,U03UHB8CXDY,U03U1HAG9TR",1pm UTC tomorrow please ,U03TEPYRM2P,Allchannells
+456,raised_hands,3,"U03UD68RQH3,U03UHB8CXDY,U03UG1Z21JP","hi <@U03TEPYRM2P>, i know today's tutorial session just ended but could we have it uploaded really soon?",U03UD5B7C3X,Allchannells
+457,white_check_mark,1,U03UVHCV6KB,<https://github.com/confluentinc/cp-docker-images>,U03UKL27B0R,Allchannells
+458,white_check_mark,1,U03UVHCV6KB,This is the official docker image of conlfuent. You can find the distributed &amp; standalone mode for running the entire kafka setup,U03UKL27B0R,Allchannells
+459,raised_hands,1,U03UVHCV6KB,"Always there <@U03UVHCV6KB> :pray:,thank you",U03V6HMRPGQ,Allchannells
+460,white_check_mark,17,"U03UG5VFN03,U03UJGP0C68,U03V785NLSU,U03UG0YHAUT,U03UG4Q7V42,U03U9EJR362,U03U1FNPEUX,U03UJH1EQQL,U03V6HMRPGQ,U03UD68RQH3,U03U1HAG9TR,U03UJN29Y4C,U03UH397319,U03UFV7HFNF,U03UL5LSTG9,U03UHB8CXDY,U03UG0SFHGT","Good morning winners, welcome to week 9 of week 12 of this intensive training. We commend your resilience and perseverance as you sail through the thick and thin of this training. You’ve been pushing since the day you applied for this training and you never cease to push to get your tasks done. We are proud of you! You’ve started seeing some rays of light inside the tunnel - in the coming weeks, you’ll eventually see the light at the end of the tunnel. Do have a great week ahead :blush:",U03TEPYRM2P,Allchannells
+461,pray,7,"U03UUS0MZCZ,U03UG0YHAUT,U03U1FNPEUX,U03UVHCV6KB,U03V6HMRPGQ,U03UG1Z21JP,U03UH397319","Good morning winners, welcome to week 9 of week 12 of this intensive training. We commend your resilience and perseverance as you sail through the thick and thin of this training. You’ve been pushing since the day you applied for this training and you never cease to push to get your tasks done. We are proud of you! You’ve started seeing some rays of light inside the tunnel - in the coming weeks, you’ll eventually see the light at the end of the tunnel. Do have a great week ahead :blush:",U03TEPYRM2P,Allchannells
+462,muscle,1,U03UD68RQH3,"Good morning winners, welcome to week 9 of week 12 of this intensive training. We commend your resilience and perseverance as you sail through the thick and thin of this training. You’ve been pushing since the day you applied for this training and you never cease to push to get your tasks done. We are proud of you! You’ve started seeing some rays of light inside the tunnel - in the coming weeks, you’ll eventually see the light at the end of the tunnel. Do have a great week ahead :blush:",U03TEPYRM2P,Allchannells
+463,raised_hands,1,U03TT5KEYCF,"Good morning winners, welcome to week 9 of week 12 of this intensive training. We commend your resilience and perseverance as you sail through the thick and thin of this training. You’ve been pushing since the day you applied for this training and you never cease to push to get your tasks done. We are proud of you! You’ve started seeing some rays of light inside the tunnel - in the coming weeks, you’ll eventually see the light at the end of the tunnel. Do have a great week ahead :blush:",U03TEPYRM2P,Allchannells
+464,eyes,1,U03UG5VFN03,How could I join the two tables? do they have a common attribute that can I use to merge them together?,U03UJGRN5E0,Allchannells
+465,white_check_mark,1,U03U1FNPEUX,but for the driver_location data the unique one is order_id+driver_id since the order is broadcasted to multiple drivers.,U03UUR571A5,Allchannells
+466,white_check_mark,1,U03UUR571A5,<@U03UUR571A5> Thanks,U03UJGRN5E0,Allchannells
+467,white_check_mark,1,U03UVHCV6KB,Thank you Fish,U03UJN29Y4C,Allchannells
+468,white_check_mark,1,U03UG1Z21JP,"this is what worked for me
+```order_df.merge(trip_df, how='inner', left_on='order_id',right_on=""Trip ID"")```",U03UJGRN5E0,Allchannells
+469,raised_hands,1,U03UVHCV6KB,"<@U03UG1Z21JP> If you want to split it to an additional column you can use
+```df['Trip_Origin_lat'] = df['Trip Origin'].apply(lambda x: str(x).split(',')[0])
+df['Trip_Origin_lng'] = df['Trip Origin'].apply(lambda x: str(x).split(',')[1])```",U03UUR571A5,Allchannells
+470,white_check_mark,1,U03UVHCV6KB,<@U03UVHCV6KB> Thank you,U03UG1Z21JP,Allchannells
+471,white_check_mark,1,U03UJGP0C68,"Yes, I think drivers location shows where the driver was located at broadcast time( or while rejecting or accepting the trip)",U03UUR571A5,Allchannells
+472,raised_hands,1,U03UVHCV6KB,"```from geopy import distance
+
+start_coordinates = df_trip['Trip Origin'].tolist()
+end_coordinates = df_trip['Trip Destination'].tolist()
+
+def calculate_distances(self, starting_coordinates, ending_coordinates):
+        calculated_distances = []
+        for i in range(len(starting_coordinates)):
+            val = str(starting_coordinates[i]).split(',')
+            starting_tuple = (val[0], val[1])
+            val_end = str(ending_coordinates[i]).split(',')
+            ending_tuple = (val_end[0], val_end[1])
+            calculated_distances.append(distance.distance(starting_tuple, ending_tuple).km)
+        return calculated_distances
+
+df_trip['distance'] = calculate_distances(start_coordinates, end_coordinates)```",U03UUR571A5,Allchannells
+473,eyes,5,"U03UVHCV6KB,U03UG0SFHGT,U03UUR571A5,U03U1HAG9TR,U03UJGRN5E0","Just an update on the data from Gokada CEO Olutosin
+
+a)
+nb.csv contains 535k orders created in the span of 6 months from July 2021 - December 2021
+driver_locations_during_request.csv contains driver order requests and the location of the driver during the request for each order in the nb.csv (Trip ID). Since this is a very data intensive task we calculated it only for one month.
+driver_locations_during_request.csv#order_id == nb.csv#trip_id
+
+
+b)
+We can easily stipulate for now based on the orders created_at to get a sense of when the drivers got the order for this analysis, if we need precise timestamps we will need to recalculate the datasets for the first month again.",U03UUN8M4RX,Allchannells
+474,raised_hands,1,U03UD68RQH3,"Just an update on the data from Gokada CEO Olutosin
+
+a)
+nb.csv contains 535k orders created in the span of 6 months from July 2021 - December 2021
+driver_locations_during_request.csv contains driver order requests and the location of the driver during the request for each order in the nb.csv (Trip ID). Since this is a very data intensive task we calculated it only for one month.
+driver_locations_during_request.csv#order_id == nb.csv#trip_id
+
+
+b)
+We can easily stipulate for now based on the orders created_at to get a sense of when the drivers got the order for this analysis, if we need precise timestamps we will need to recalculate the datasets for the first month again.",U03UUN8M4RX,Allchannells
+475,pray,2,"U03UG5VFN03,U03U1FNPEUX","Just an update on the data from Gokada CEO Olutosin
+
+a)
+nb.csv contains 535k orders created in the span of 6 months from July 2021 - December 2021
+driver_locations_during_request.csv contains driver order requests and the location of the driver during the request for each order in the nb.csv (Trip ID). Since this is a very data intensive task we calculated it only for one month.
+driver_locations_during_request.csv#order_id == nb.csv#trip_id
+
+
+b)
+We can easily stipulate for now based on the orders created_at to get a sense of when the drivers got the order for this analysis, if we need precise timestamps we will need to recalculate the datasets for the first month again.",U03UUN8M4RX,Allchannells
+476,raised_hands,1,U03UJGP0C68,"sorry to hear that <@U03UJGP0C68>, hope it's get better",U03V6HMRPGQ,Allchannells
+477,white_check_mark,1,U03UJGP0C68,<https://causalnex.readthedocs.io/en/latest/02_getting_started/01_prerequisites.html#using-conda>,U03UJH1EQQL,Allchannells
+478,1,1,U03UJH1EQQL,<@U03UJH1EQQL> thank you very much it's working now,U03UJGP0C68,Allchannells
+479,raised_hands,1,U03UG5VFN03,<@U03UL5LSTG9> <@U03TT5KEYCF> <@U03U4GULU3Y>,U03V785NLSU,Allchannells
+480,white_check_mark,3,"U03UVHCV6KB,U03UH397319,U03UG0YHAUT",<@U03UVHCV6KB> based on Weekly schedule. I think so too,U03UUS0MZCZ,Allchannells
+481,raised_hands,1,U03UG32J3PC,"No. The issue is solved (it was very simple) .. thank to <@U03UUS0MZCZ> 
+
+Thank you",U03UJKJGRAQ,Allchannells
+482,raised_hands,1,U03UJKJGRAQ,<https://www.how2shout.com/linux/install-miniconda-on-ubuntu-22-04-lts-jammy-linux/>,U03U1FNPEUX,Allchannells
+483,raised_hands,1,U03UJKJGRAQ,or this.  <https://www.how2shout.com/linux/how-to-install-miniconda-on-ubuntu-20-04-lts-focal/>,U03UG1Z21JP,Allchannells
+484,eyes,3,"U03UG32J3PC,U03U1HAG9TR,U03UG0YHAUT",<https://en.wikipedia.org/wiki/Murder_of_Kitty_Genovese|Murder of Kitty Genovese - Wikipedia>,U03UUN8M4RX,Allchannells
+485,100,1,U03UG5VFN03,<https://en.wikipedia.org/wiki/Murder_of_Kitty_Genovese|Murder of Kitty Genovese - Wikipedia>,U03UUN8M4RX,Allchannells
+486,white_check_mark,2,"U03UVHCV6KB,U03UH397319",<!channel> note that the next session in on in 2 minutes,U03T89ACUUW,Allchannells
+487,1,1,U03UJKJGRAQ,<https://eth-brownie.readthedocs.io/en/stable/|Brownie>,U03V785NLSU,Allchannells
+488,eyes,2,"U03U1HAG9TR,U03UJN29Y4C","If I lose my password and my secret recovery phrase, I lose my wallet and my funds forever?",U03V785NLSU,Allchannells
+489,disappointed,1,U03UJKJGRAQ,hey did you miss my silly questions? I have been blocked out from the internet by the government,U03V6HMRPGQ,Allchannells
+490,white_check_mark,1,U03V6HMRPGQ,"It was basically an intro kind of tutorial on creating and deploying smart contracts on the Ethereum test network named <https://goerli.net/|goerli test net>  using <https://remix.ethereum.org/|remix>, a browser-based IDE for developing and deploying smart contracts",U03UVHCV6KB,Allchannells
+491,white_check_mark,1,U03UVHCV6KB,Thank you <@U03UVHCV6KB>,U03V6HMRPGQ,Allchannells
+492,white_check_mark,2,"U03V6HMRPGQ,U03UVHCV6KB",Find all the details here <https://pad.riseup.net/p/10academysmartcontractws>,U03V785NLSU,Allchannells
+493,1,1,U03U9DB7REG,worked thnx,U03UHB8CXDY,Allchannells
+494,raised_hands::skin-tone-4,1,U03UG4Q7V42,at your service Sir,U03TEPYRM2P,Allchannells
+495,raised_hands,2,"U03UG1Z21JP,U03UVHCV6KB",at your service Sir,U03TEPYRM2P,Allchannells
+496,raised_hands::skin-tone-3,1,U03U9EJR362,at your service Sir,U03TEPYRM2P,Allchannells
+497,rolling_on_the_floor_laughing,3,"U03TT5KEYCF,U03UJGP0C68,U03UVHCV6KB",at your service Sir,U03TEPYRM2P,Allchannells
+498,clap,2,"U03V6HMRPGQ,U03UJKJGRAQ","Hey <!here>, please kindly fill out this questionnaire. It is a basic questionnaire to collect opinions and some thoughts about the standup sessions. As you might remember there were some volunteers that took the task of making a proposal on how to improve the overall interaction and engagement in the stand-up sessions. And your thoughts and opinions will be foundational in the formulation of this proposal. Thank you all in advance.
+
+<https://forms.gle/poVsPQ3FJ9hjY62g6>",U03UVHCV6KB,Allchannells
+499,100,1,U03UG5VFN03,"Hey <!here>, please kindly fill out this questionnaire. It is a basic questionnaire to collect opinions and some thoughts about the standup sessions. As you might remember there were some volunteers that took the task of making a proposal on how to improve the overall interaction and engagement in the stand-up sessions. And your thoughts and opinions will be foundational in the formulation of this proposal. Thank you all in advance.
+
+<https://forms.gle/poVsPQ3FJ9hjY62g6>",U03UVHCV6KB,Allchannells
+500,raised_hands::skin-tone-3,1,U03U9EJR362,Flutter &amp; React-Native templates are uploaded to the Week10 folder on GDrive.,U03UKL27B0R,Allchannells
+501,raised_hands,5,"U03UJKJGRAQ,U03UD68RQH3,U03UG0SFHGT,U03U1HAG9TR,U03UFV7HFNF",Flutter &amp; React-Native templates are uploaded to the Week10 folder on GDrive.,U03UKL27B0R,Allchannells
+502,white_check_mark,3,"U03UUR571A5,U03UJGRN5E0,U03U1HAG9TR","If you encounter a bug related to null-safety when you run the flutter template app, use this flag with your fun command: :point_down:
+```flutter run --no-sound-null-safety```",U03UD68RQH3,Allchannells
+503,white_check_mark,1,U03UJGRN5E0,for the password type anything but the length has to be &gt; 8 and you should also select the employee from the drop down to see the next page,U03UD68RQH3,Allchannells
+504,white_check_mark,1,U03V1AM5TFA,Can you let me in? Am waiting!,U03UJH1EQQL,Allchannells
+505,white_check_mark,1,U03UJGP0C68,"Yea it is enough, but you can still use genaache, it is much easier and it is local.
+and for the deploying part, after you deploy your contract you will get .json file(for truffle it is located in the build/contracts/) and you use that on the front end side to connect and create requests",U03UUR571A5,Allchannells
+506,white_check_mark,1,U03UUR571A5,Thanks <@U03UUR571A5> ,U03U1FNPEUX,Allchannells
+507,1,1,U03UJKJGRAQ,yes <@U03UJKJGRAQ>,U03TEPYRM2P,Allchannells
+508,raised_hands,1,U03UG1Z21JP,Join back,U03U9DB7REG,Allchannells
+509,pray,1,U03UG5VFN03,Join back,U03U9DB7REG,Allchannells
+510,raised_hands,1,U03UJGP0C68,OK mine was on 7545............. sorry man I am not really sure what's causing the problem.,U03UUR571A5,Allchannells
+511,raised_hands,1,U03UUR571A5,yeah yeah I managed to deploy it on remix...I just wanted to try it locally and this happened,U03UJGP0C68,Allchannells
+512,1,1,U03UKL27B0R,this is the config for now...,U03UJGP0C68,Allchannells
+513,raised_hands,1,U03UJGP0C68,<https://docs.infura.io/infura/tutorials/ethereum/create-a-dapp-using-truffle-and-react>,U03UUR571A5,Allchannells
+514,white_check_mark,1,U03UUR571A5,great let me look at that ....thanks bruh,U03UJGP0C68,Allchannells
+515,white_check_mark,1,U03UUR571A5,"Is there anyone here that has faced this error when trying to deploy using solidity? It compiles successfully but when I try to deploy this error comes.
+
+```creation of Refund errored: Cannot destructure property 'result' of 'undefined' as it is undefined.```
+### SOLVED ###
+By clearing the browser cache and reloading remix.
+Thanks, <@U03UUR571A5>",U03UVHCV6KB,Allchannells
+516,white_check_mark,1,U03UD68RQH3,It always takes a while longer for the first installation. so just be patient and have stable internet,U03UUR571A5,Allchannells
+517,white_check_mark,1,U03UJGRN5E0,"If the app is running on your phone you can't connect to localhost.
+First your phone and pc should be in the same network,
+Second change the service running in localhost to run on all network interfaces 
+Third use &lt;ipaddress of your pc:port&gt; to connect",U03UUR571A5,Allchannells
+518,white_check_mark,1,U03UUR571A5,"it is working, thanks",U03UJGRN5E0,Allchannells
+519,joy,1,U03V6HMRPGQ,"Noone:
+DJ Khalid: Another one",U03UVHCV6KB,Allchannells
+520,white_check_mark,1,U03U1FNPEUX,"especially if you feel like you haven't presented many weeks ago, take this chance - there is always feedback from tutors/Yabebal to help you develop!",U03T89ACUUW,Allchannells
+521,raised_hands,6,"U03UG32J3PC,U03U1FNPEUX,U03UFV7HFNF,U03UVHCV6KB,U03UG0SFHGT,U03U1HAG9TR","Good morning Champs, Welcome to week 11 of 10Academy intensive training. Congratulations for making it this far. The light in the tunnel is getting brighter.  In a week, we will eventually see the light at the end of the tunnel. We keep pushing and grinding until we all win. Have a great week ahead guys.",U03TEPYRM2P,Allchannells
+522,raised_hands::skin-tone-3,1,U03U9EJR362,"Good morning Champs, Welcome to week 11 of 10Academy intensive training. Congratulations for making it this far. The light in the tunnel is getting brighter.  In a week, we will eventually see the light at the end of the tunnel. We keep pushing and grinding until we all win. Have a great week ahead guys.",U03TEPYRM2P,Allchannells
+523,raised_hands,2,"U03UVHCV6KB,U03UFV7HFNF","For this week challenge we will be providing instance access with GPU. The s3 bucket can only be accessed from the provided instances.
+
+You can use python libraries like boto3 to download the files from S3.
+
+Bucket name: 10ac-batch-6
+Path: data/w11/Challenge_Data.zip",U03UKL27B0R,Allchannells
+524,raised_hands::skin-tone-3,1,U03U9EJR362,"For this week challenge we will be providing instance access with GPU. The s3 bucket can only be accessed from the provided instances.
+
+You can use python libraries like boto3 to download the files from S3.
+
+Bucket name: 10ac-batch-6
+Path: data/w11/Challenge_Data.zip",U03UKL27B0R,Allchannells
+525,white_check_mark,1,U03V6HMRPGQ,"<!here> <@U03V6HMRPGQ> I am asking if you haven't sent your picture in your office, Kindly do upload it here on this link <http://bit.ly/B6Trainees-Photos>",U03V1AM5TFA,Allchannells
+526,joy,1,U03V6HMRPGQ,send me 100 Dinars instead,U03U93GNNVB,Allchannells
+527,heart,2,"U03UG1Z21JP,U03UG0YHAUT",Batch 2 OG,U03U93GNNVB,Allchannells
+528,muscle,2,"U03V785NLSU,U03UUS0MZCZ",Batch 2 OG,U03U93GNNVB,Allchannells
+529,white_check_mark,1,U03V6HMRPGQ,We can get you 8 talks a day if you want.,U03U93GNNVB,Allchannells
+530,eyes,2,"U03UVHCV6KB,U03U1HAG9TR",Power point shared by Abebaw,U03UDBUL7CL,Allchannells
+531,1,2,"U03V6HMRPGQ,U03UFV7HFNF",I'm available!,U03U93GNNVB,Allchannells
+532,heart,3,"U03V6HMRPGQ,U03UFV7HFNF,U03UJN29Y4C",I  remember her 150 interviews thing she was a greate motivation....,U03UG0YHAUT,Allchannells
+533,white_check_mark,1,U03U1FNPEUX,"Hello everyone, <!channel>.
+
+This week challenge will be in groups. If you went through the document earlier today you might have missed the group section as they were created today for ease in sharing AWS resources. Kindly confirm your group members, ensure that you're in touch before the end of today (creating private channels), start organizing meetings and let's do this.
+
+NB. When you create your private channel ensure you've added at least one member of the tutoring team (Yabebal, Yididya, Azaria, Nardos and I)",U03UP7V9Q57,Allchannells
+534,1,2,"U03UG1Z21JP,U03UG0YHAUT","Task Variants
+
+Semantic Segmentation
+Semantic Segmentation is the task of segmenting parts of an image that belong to the same class. Semantic Segmentation models make predictions for each pixel and return the probabilities of the classes for each pixel. These models are evaluated on Mean Intersection Over Union (Mean IoU).
+
+Instance Segmentation
+Instance Segmentation is the variant of Image Segmentation where every distinct object is segmented, instead of one segment per class.
+
+Panoptic Segmentation
+Panoptic Segmentation is the Image Segmentation task that segments the image both by instance and by class, assigning each pixel a different instance of the class.",U03UVHCV6KB,Allchannells
+535,+1::skin-tone-3,1,U03U9EJR362,"Task Variants
+
+Semantic Segmentation
+Semantic Segmentation is the task of segmenting parts of an image that belong to the same class. Semantic Segmentation models make predictions for each pixel and return the probabilities of the classes for each pixel. These models are evaluated on Mean Intersection Over Union (Mean IoU).
+
+Instance Segmentation
+Instance Segmentation is the variant of Image Segmentation where every distinct object is segmented, instead of one segment per class.
+
+Panoptic Segmentation
+Panoptic Segmentation is the Image Segmentation task that segments the image both by instance and by class, assigning each pixel a different instance of the class.",U03UVHCV6KB,Allchannells
+536,pray,8,"U03UFV7HFNF,U03UG1Z21JP,U03UJKJGRAQ,U03UUR571A5,U03V785NLSU,U03UD68RQH3,U03U1FNPEUX,U03UUS0MZCZ","• Selenium 
+• ffmpeg for video recording 
+• Extclour for color extraction 
+• rgb to hex
+• pytesseract text extraction 
+• openCv for image locating 
+• Yolo7 for object detecting
+• Tensorflow or Pythorch for the modeling part 
+those are the Lib used in today's tutorial",U03V6HMRPGQ,Allchannells
+537,pray::skin-tone-4,1,U03UG4Q7V42,"• Selenium 
+• ffmpeg for video recording 
+• Extclour for color extraction 
+• rgb to hex
+• pytesseract text extraction 
+• openCv for image locating 
+• Yolo7 for object detecting
+• Tensorflow or Pythorch for the modeling part 
+those are the Lib used in today's tutorial",U03V6HMRPGQ,Allchannells
+538,pray::skin-tone-3,1,U03U9EJR362,"• Selenium 
+• ffmpeg for video recording 
+• Extclour for color extraction 
+• rgb to hex
+• pytesseract text extraction 
+• openCv for image locating 
+• Yolo7 for object detecting
+• Tensorflow or Pythorch for the modeling part 
+those are the Lib used in today's tutorial",U03V6HMRPGQ,Allchannells
+539,pray,1,U03V6HMRPGQ,Thank you <@U03V6HMRPGQ>,U03U1HAG9TR,Allchannells
+540,pray,1,U03V6HMRPGQ,Thank you <@U03V6HMRPGQ>,U03UJKJGRAQ,Allchannells
+541,pray,1,U03V6HMRPGQ,:pray:  <@U03V6HMRPGQ>,U03UUR571A5,Allchannells
+542,white_check_mark,1,U03V6HMRPGQ,add YOLO too.,U03V785NLSU,Allchannells
+543,white_check_mark,1,U03V6HMRPGQ,Yolo7,U03UUR571A5,Allchannells
+544,white_check_mark,1,U03V6HMRPGQ,and Tenser flow or Pytorch for  modeling part,U03UG1Z21JP,Allchannells
+545,white_check_mark,2,"U03UG32J3PC,U03V6HMRPGQ","<@U03U1HAG9TR> I have used both. But, I felt Tensorflow is the easiest to use since it abstract many implementations.
+
+I also realized that Tensorflow is use in industry  while PyTorch is mostly used by researchers.  I might be wrong though :woman-shrugging:",U03UG1Z21JP,Allchannells
+546,white_check_mark,1,U03V6HMRPGQ,"if ur on vscode do
+```code .ssh/config```",U03U1GHT39V,Allchannells
+547,heart,1,U03UJKJGRAQ,login in again,U03UHB8CXDY,Allchannells
+548,raised_hands,3,"U03V5Q9N516,U03U1HAG9TR,U03UG1Z21JP",<!here> Take a look at the resource provided by #Milky,U03U9DB7REG,Allchannells
+549,raised_hands::skin-tone-3,1,U03U9EJR362,<!here> Take a look at the resource provided by #Milky,U03U9DB7REG,Allchannells
+550,raised_hands,1,U03UJKJGRAQ,"So, during our group meeting, there is a question raised. in terms of creatives that we will use for feature extraction. we saw that the provided images of the creative are different from each other, while some have more than one creative version. and during today's morning session Milky said that the creatives will be provided as links so we should do Web scraping to extract creatives in either video or images.
+At this stage, we, in group 3, are concerned about which source we are going to use for our feature-extracting tasks :
+• The provided data 
+• scrape it using  Selenium and build our own data 
+team : <@U03UG32J3PC>, <@U03UJKJGRAQ>, <@U03U1GHT39V>, <@U03V5Q9N516>, <@U03UUP56MDF>
+please can anyone from the tutors of fellow explain more ?
+<@U03UKL27B0R>, <@U03U9DB7REG>, <@U03UP7V9Q57>",U03V6HMRPGQ,Allchannells
+551,white_check_mark,1,U03V8LHPDME,I think it would be better to start with the data which is provided on  s3,U03UVHCV6KB,Allchannells
+552,white_check_mark,1,U03V8LHPDME,"I just closed it and tried again, after a while, and it worked <@U03UD68RQH3>",U03UJKJGRAQ,Allchannells
+553,white_check_mark,1,U03U1HAG9TR,"You can use the assets provided for the creative. This week's challenge focuses on computer vision so put more emphasis on that part of the project -- feature extraction, and automated pipeline building.
+
+You can add simple functions that will handle this extended functionality.",U03V8LHPDME,Allchannells
+554,white_check_mark,3,"U03UG32J3PC,U03UHB8CXDY,U03U1HAG9TR",The assets are used to build the whole creative tho so depending on what type of feature you are going to extract you can download the specific creatives from the _performance_data.csv_ files and represent the creative as Milky did in today's tutorial to represent the creative. It depends on what type of feature you are trying to extract from the creative and the approach you use as he mentioned.,U03V8LHPDME,Allchannells
+555,pray,1,U03UD68RQH3,<@U03UD68RQH3> <https://www.jetbrains.com/remote-development/gateway/>,U03UUR571A5,Allchannells
+556,rolling_on_the_floor_laughing,3,"U03U1FNPEUX,U03UD68RQH3,U03U1HAG9TR",sh*t .. my condolences,U03UJKJGRAQ,Allchannells
+557,joy,11,"U03UJKJGRAQ,U03U1FNPEUX,U03UUR571A5,U03V61VGQG0,U03UG4Q7V42,U03V6HMRPGQ,U03UD68RQH3,U03U1HAG9TR,U03UG0SFHGT,U03UG1Z21JP,U03UVHCV6KB",I don't think we'll notice any difference since their service is already terrible.,U03UUP56MDF,Allchannells
+558,rolling_on_the_floor_laughing,1,U03UVHCV6KB,exactly <@U03UUP56MDF>. This is like a reminder,U03U1FNPEUX,Allchannells
+559,rolling_on_the_floor_laughing,1,U03UVHCV6KB,Imagine how horrible the back up would be.,U03UUR571A5,Allchannells
+560,smile,3,"U03V61VGQG0,U03UG0SFHGT,U03UVHCV6KB",Im afraid they might discover that its better:rolling_on_the_floor_laughing:,U03U1FNPEUX,Allchannells
+561,rolling_on_the_floor_laughing,8,"U03V61VGQG0,U03V6HMRPGQ,U03UUR571A5,U03UJKJGRAQ,U03UJGP0C68,U03UFV7HFNF,U03U1FNPEUX,U03UVHCV6KB","I bet the ""Backup"" is just two copper wires duct taped together.",U03UUP56MDF,Allchannells
+562,face_palm,1,U03UD68RQH3,Zget nw man ,U03V61VGQG0,Allchannells
+563,pray,1,U03UD68RQH3,Sure! ,U03TEPYRM2P,Allchannells
+564,joy,3,"U03UD68RQH3,U03UUR571A5,U03UVHCV6KB",bruh I was struggling so much today....I even called ethio telecom and the customer service told me that I am using 200Mb/s internet :rolling_on_the_floor_laughing: no sh*t...,U03UJGP0C68,Allchannells
+565,pensive,3,"U03U1FNPEUX,U03UUR571A5,U03UVHCV6KB",Saw this tweet last week and hate my life:grin:,U03UJGP0C68,Allchannells
+566,white_check_mark,1,U03UJGP0C68,"hey, <@U03UJGP0C68>, appreciate the mentioned numbers. The first way I found was to locate the pre-define logo from the assets in the image, as you mentioned there is more than half of the assets have no logo files .
+till now my research say there is no way to do it around. but I will reach to you if I found any thing interesting.
+Thanks for reaching",U03V6HMRPGQ,Allchannells
+567,rolling_on_the_floor_laughing,1,U03UVHCV6KB,i tried that and wasnt solved. It even got me somehow banned,U03U1FNPEUX,Allchannells
+568,heavy_check_mark,1,U03U9DB7REG,"actually the display problem can be solved by adding the following
+```   ForwardX11 yes
+   ForwardAgent yes
+   ForwardX11Trusted yes```
+in the ssh config file or just by passing these as an arguments when we connect to the instance using ssh.",U03V61VGQG0,Allchannells
+569,1,1,U03V61VGQG0,sure ty,U03U1FNPEUX,Allchannells
+570,raised_hands::skin-tone-4,1,U03UG4Q7V42,"```import os
+rootdir = '../data/Challenge_Data/Assets/&lt;game_id&gt;'
+
+for subdir, dirs, files in os.walk(rootdir):
+    for file in files:
+        print(os.path.join(subdir, file))```
+you can now access all the files/images inside that particular game_id",U03UUR571A5,Allchannells
+571,raised_hands,1,U03UJKJGRAQ,"```import os
+rootdir = '../data/Challenge_Data/Assets/&lt;game_id&gt;'
+
+for subdir, dirs, files in os.walk(rootdir):
+    for file in files:
+        print(os.path.join(subdir, file))```
+you can now access all the files/images inside that particular game_id",U03UUR571A5,Allchannells
+572,white_check_mark,1,U03UUR571A5,Thank you Nati:pray::skin-tone-4:,U03UG4Q7V42,Allchannells
+573,eyes,1,U03UUR571A5,"*I am not sure how successful it will be*
+
+The main issue we are facing regarding detecting logos is ""_how can a model detect any logo that it is not trained on?_"" Right? So instead of trying to train logo images what if we train our model on various logo shapes (outline)? then try to extract/detect that shape from any image? we can use object detection here.  If you think about it, most logos are quite similar in their shapes ... please, let me know if anyone has tried this",U03UJGP0C68,Allchannells
+574,pray,1,U03U1FNPEUX,I wish I had provided more help.. but you are welcome anyways,U03UUR571A5,Allchannells
+575,white_check_mark,1,U03UG4Q7V42,Instances are up.,U03UKL27B0R,Allchannells
+576,white_check_mark,1,U03UJGP0C68,And we are not even sure that the position of the logo's are correlated with the outcome. You can work on the the other given relevant features and see how they are related and work on the logo extraction if you have time.,U03UKL27B0R,Allchannells
+577,white_check_mark,1,U03UJGP0C68,Or one member of the group can be assigned to focus on that task while the others work on extracting other features and building the model.,U03UKL27B0R,Allchannells
+578,white_check_mark,1,U03U1FNPEUX,"#Resources
+<https://www.tensorflow.org/js/models>
+<https://github.com/tensorflow/tfjs-models/tree/master/face-detection>",U03U9DB7REG,Allchannells
+579,smiling_face_with_tear,1,U03UJGP0C68,"That is something else, thought it was only from VS code",U03UVHCV6KB,Allchannells
+580,white_check_mark,2,"U03U1FNPEUX,U03UJGP0C68",We will get up in a few minutes.,U03U9DB7REG,Allchannells
+581,white_check_mark,2,"U03UJGP0C68,U03U1FNPEUX",Should work now.,U03U9DB7REG,Allchannells
+582,1,1,U03U9DB7REG,"yes its working, thank you",U03UJGP0C68,Allchannells
+583,raised_hands,1,U03UJKJGRAQ,"Since the engagement instruction is a png, why don't you just locate that image on the main one? And take that as the text location?
+
+That's my idea",U03UH397319,Allchannells
+584,100,1,U03UJKJGRAQ,"This function is a good starting point:
+```def locate_image_on_image(locate_image: str, on_image: str, prefix: str = '', visualize: bool = False, color: Tuple[int, int, int] = (0, 0, 255)):
+    try:
+
+        image = cv2.imread(on_image)
+        gray = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
+
+        template = cv2.imread(locate_image, 0)
+
+        result = cv2.matchTemplate(gray, template, cv2.TM_CCOEFF)
+        _, _, _, max_loc = cv2.minMaxLoc(result)
+
+        height, width = template.shape[:2]
+
+        top_left = max_loc
+        bottom_right = (top_left[0] + width, top_left[1] + height)
+
+        if visualize:
+            cv2.rectangle(image, top_left, bottom_right, color, 1)
+            plt.figure(figsize=(10, 10))
+            plt.axis('off')
+            image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+            plt.imshow(image)
+
+        return {f'{prefix}top_left_pos': top_left, f'{prefix}bottom_right_pos': bottom_right}
+
+    except cv2.error as err:
+        print(err)```
+It's using the library 'cv2'",U03UH397319,Allchannells
+585,pray,7,"U03UG32J3PC,U03U1GHT39V,U03UG0YHAUT,U03UUR571A5,U03UG1Z21JP,U03UFV7HFNF,U03V785NLSU",Finally :grin:,U03V61VGQG0,Allchannells
+586,muscle,3,"U03UUR571A5,U03UG32J3PC,U03UG0SFHGT",Finally :grin:,U03V61VGQG0,Allchannells
+587,muscle::skin-tone-4,1,U03U1HAG9TR,Finally :grin:,U03V61VGQG0,Allchannells
+588,raised_hands,3,"U03UUR571A5,U03UG0SFHGT,U03UG32J3PC",The beginning of the End:joy: :joy:,U03UG0YHAUT,Allchannells
+589,smile,5,"U03V61VGQG0,U03UG1Z21JP,U03UFV7HFNF,U03V785NLSU,U03U1HAG9TR",The beginning of the End:joy: :joy:,U03UG0YHAUT,Allchannells
+590,raised_hands,6,"U03UG0YHAUT,U03UG32J3PC,U03UFV7HFNF,U03UG5VFN03,U03UJN29Y4C,U03U1FNPEUX",12 of 12:100:,U03TEPYRM2P,Allchannells
+591,muscle,2,"U03UG0SFHGT,U03U1FNPEUX",12 of 12:100:,U03TEPYRM2P,Allchannells
+592,muscle::skin-tone-4,1,U03U1HAG9TR,12 of 12:100:,U03TEPYRM2P,Allchannells
+593,eyes,2,"U03UG1Z21JP,U03U1HAG9TR",What are we submitting today?,U03V785NLSU,Allchannells
+594,white_check_mark,3,"U03V6HMRPGQ,U03UG5VFN03,U03UHB8CXDY","The document will be shared soon.
+
+For the submission structure, you can follow the following guideline:
+• the project chosen with a summary of the business understanding and tasks to be done.
+• what was accomplished during the week
+• how you plan to extend the project, and
+• the week plan (day by day) to extend the project.",U03UP7V9Q57,Allchannells
+595,raised_hands,1,U03UJKJGRAQ,"```docker update --restart=no $(docker ps -a -q)```
+",U03UUR571A5,Allchannells
+596,heavy_check_mark,1,U03UUR571A5,Thank you very much,U03UJKJGRAQ,Allchannells
+597,white_check_mark,1,U03UVHCV6KB,yes,U03UH397319,Allchannells
+598,white_check_mark,1,U03V6HMRPGQ,<https://docs.google.com/forms/d/1-DHIqS0cqGDMClMbRpaNhzrCgUJ4zS_aKk6D46QtJiQ/formrestricted?edit_requested=true|https://docs.google.com/forms/d/1-DHIqS0cqGDMClMbRpaNhzrCgUJ4zS_aKk6D46QtJiQ/formrestricted?edit_requested=true>,U03UFV7HFNF,Allchannells
+599,1,1,U03UFV7HFNF,Thank you <@U03UFV7HFNF>,U03V6HMRPGQ,Allchannells
+600,raised_hands,1,U03UFV7HFNF,Changing that. Will communicate once the permission has been updated,U03UP7V9Q57,Allchannells
+601,pray,1,U03UFV7HFNF,Working now.,U03UP7V9Q57,Allchannells
+602,heavy_check_mark,2,"U03U1FNPEUX,U03U9EJR362",<https://www.linkedin.com/feed/update/urn:li:activity:6996464008971100160?utm_source=share&amp;utm_medium=member_android|https://www.linkedin.com/feed/update/urn:li:activity:6996464008971100160?utm_source=share&amp;utm_medium=member_android>,U03UG0YHAUT,Allchannells
+603,raised_hands,1,U03UG5VFN03,ETL and ELT,U03UHB8CXDY,Allchannells
+604,white_check_mark,1,U03UJGP0C68,Please use the submission link for week 12 to submit.,U03TEPYRM2P,Allchannells
